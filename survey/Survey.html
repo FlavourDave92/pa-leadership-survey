@@ -1,0 +1,59 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+<style type="text/css">
+    .otree-body {
+        max-width:1000px !important;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Part 2: Survey</h3>
+
+<div class="instructions" style="text-align:left">
+    <b>Inwieweit treffen die folgenden Aussagen auf Sie persönlich zu? Bitte wählen Sie den entsprechenden Kreis der
+        Kategorie rechts neben jeder Aussage aus.<br><br> Fragen zu dem „System“ beziehen sich auf das zuvor gezeigte System. Fragen zur „Arbeitgeber*in“ beziehen sich auf die Arbeitgeber*in in diesem Szenario, welche das System eingeführt hat.</b>
+</div>
+</div>
+
+
+<table class="table">
+    <tr>
+        <th class="left"></th>
+        <th width="9%" style="padding: 5px">stimme überhaupt nicht zu</th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px">stimme voll und ganz zu</th>
+    </tr>
+    <tr style>
+        <th class="left"></th>
+        <th width="9%" style="padding: 5px">---</th>
+        <th width="9%" style="padding: 5px">--</th>
+        <th width="9%" style="padding: 5px">-</th>
+        <th width="9%" style="padding: 5px">0</th>
+        <th width="9%" style="padding: 5px">+</th>
+        <th width="9%" style="padding: 5px">++</th>
+        <th width="9%" style="padding: 5px">+++</th>
+    </tr>
+    {% for field in form %}
+    <tr>
+        <td class="left"><p>{{ field.label }}</p></td>
+        {% for choice in field %}
+        <td><p>{{ choice }}</p></td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+<div class="NextButtonDiv">
+    {% next_button %}
+</div>
+{% endblock %}

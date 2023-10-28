@@ -1,0 +1,62 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+    .otree-body {
+        max-width: 1000px !important;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Teil 1: Vorstellung des Systems</h3>
+
+    <div class="instructions" style="text-align:center">
+        <b>Bitte machen Sie sich mit dem System vertraut. Nehmen Sie sich so viel Zeit, wie Sie benötigen.</b>
+    </div>
+</div>
+
+<div>
+
+
+    <h4>Persönliche Auswertungen</h4>
+    Diese Auswertungen stellt das System Ihnen persönlich regelmäßig zur Verfügung.
+
+    <img class="img-fluid" src="{{ static 'survey/img/MA/1.png' }}" />
+    <p class="annotation-text">
+        <br>
+        Dies ist ein Screenshot von Ihrem persönlichen Dashboard, welches Sie jederzeit einsehen können. Nur Sie haben
+        Zugriff auf diese Ansicht. Hier bekommen Sie Empfehlungen, die Ihrem Wohlbefinden dienen sollen, beispielsweise
+        eine Erinnung, eine kurze Pause einzulegen. Sie können Ihre persönliche Stimmung erfassen, diese wird Ihnen im
+        Zeitverlauf rückblickend dargestellt.
+        <br><br>
+    </p>
+    <hr>
+
+    <img class="img-fluid" src="{{ static 'survey/img/MA/2.png' }}" />
+    <p class="annotation-text">
+        <br>
+        Beim Herunterscrollen werden Ihnen als nächstes Auswertungen zu Ihren Ruhezeiten angezeigt, beispielsweise wann
+        und ob Sie diese eingehalten haben, oder ob Sie außerhalb der regulären Arbeitszeiten gearbeitet
+        haben.
+        <br><br>
+    </p>
+
+    <hr>
+
+</div>
+
+<br><br>
+
+<p><input type="checkbox" onchange="document.getElementById('nextButton').disabled = !this.checked;" /> Ich habe mich
+    mit dem System ausreichend vertraut gemacht und möchte mit dem Experiment fortfahren.</p>
+
+<button id="nextButton" class="otree-btn-next btn btn-primary" disabled>Weiter</button>
+
+
+{% endblock %}

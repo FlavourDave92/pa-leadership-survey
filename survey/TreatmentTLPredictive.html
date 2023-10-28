@@ -1,0 +1,102 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+    .otree-body {
+        max-width: 1000px !important;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Teil 1: Vorstellung des Systems</h3>
+
+    <div class="instructions" style="text-align:center">
+        <b>Bitte machen Sie sich mit dem System vertraut. Nehmen Sie sich so viel Zeit, wie Sie benötigen.</b>
+    </div>
+</div>
+
+<div>
+
+    <h4>Auswertungen für Ihre Führungskraft</h4>
+    <p class="annotation-text">Diese Auswertungen stellt das System regelmäßig Ihrer Führungskraft zur Verfügung. Sie selbst erhalten in diese
+    Auswertungen keinen direkten Einblick.<br><br></p>
+
+
+    <img class="img-fluid" src="{{ static 'survey/img/TL/PRD/1.png' }}" />
+    <p class="annotation-text">
+        <br>
+        Diese Ansichten können nun ausschließlich Führungskräfte einsehen. Sie beinhalten die aggregierten Daten
+        sämtlicher
+        Beschäftigten im Unternehmen. Hier werden die Aktivitäten nach Feierabend sowie verteilt über den ganzen Tag
+        aufgeschlüsselt. Die Führungskräfte bekommen vom System zudem einen Hinweis, warum diese Auswertung für sie
+        wichtig ist.<br><br> Durch die Analyse von Erklärungsmustern (Trends, Beziehungen, Präferenzen, Cluster) aus
+        vergangenen oder aktuellen Ereignissen stellt das System zusätzlich direkte Prognosen und Vorhersagen über zukünftige Entwicklungen zur Verfügung.
+
+        <br><br>
+    </p>
+    <hr>
+    <img class="img-fluid" src="{{ static 'survey/img/TL/PRD/2.png' }}" />
+    <p class="annotation-text">
+        <br>
+        Hier bekommen die Führungskräfte einen Überblick über Dauer und Anzahl der persönlichen Gespräche von
+        Beschäftigten mit ihren Führungskräften.
+        Darunter können Führungskräfte für einzelne Mitglieder ihres eigenen Teams Personaldaten einsehen, sowie eine
+        Bewertung
+        der Gesamtleistung abgeben. Aus dieser ergibt sich der individuelle Bonus.
+        <br><br>
+    </p>
+    <hr>
+    <img class="img-fluid" src="{{ static 'survey/img/TL/PRD/3.png' }}" />
+    <p class="annotation-text">
+        <br>
+        Auf Basis der individuellen Stimmungsbilder der Beschäftigten erhält die Führungskraft hier eine Auswertung der
+        Stimmung
+        des Teams im Zeitverlauf sowohl auf Wochenebene (Balken) sowie als Durchschnittswert (Linie).
+        <br><br>
+    </p>
+    <hr>
+    <img class="img-fluid" src="{{ static 'survey/img/TL/PRD/4.png' }}" />
+    <p class="annotation-text">
+        <br>
+        Führungskräfte bekommen hier eine Auswertung über freiwillige unternehmensinterne Umfragen zum Wohlbefinden der
+        Beschäftigten. Diese werden auf der rechten Seite mit der durchschnittlichen wöchentlichen Arbeitszeit
+        nach Feierabend (Überstunden) in Zusammenhang gesetzt.
+        <br><br>
+    </p>
+    <hr>
+    <img class="img-fluid" src="{{ static 'survey/img/TL/PRD/5.png' }}" />
+    <p class="annotation-text">
+        <br>
+        Darüber hinaus nutzt das System aktuelle und historische Personaldaten des Unternehmens zur Analyse der
+        Wahrscheinlichkeit von Beschäftigtenfluktuation
+        (Kündigungen). Diese wird den Führungskräften nach einzelnen Faktoren aufgeschlüsselt dargestellt.
+        <br><br>
+    </p>
+    <hr>
+    <img class="img-fluid" src="{{ static 'survey/img/TL/PRD/6.png' }}" />
+    <p class="annotation-text">
+        <br>
+        Zusätzlich werden den Führungskräften weitere Verteilungen sowie die Gesamtkosten der möglichen
+        Personalfluktuation angezeigt. Eine Aufschlüsselung der individuellen Kosten beim Verlust einzelner
+        Beschäftigter steht ebenfalls zur Verfügung.
+        <br><br>
+    </p>
+    <hr>
+
+</div>
+
+<br><br>
+
+<p><input type="checkbox" onchange="document.getElementById('nextButton').disabled = !this.checked;" /> Ich habe mich
+    mit dem System ausreichend vertraut gemacht und möchte mit dem Experiment fortfahren.</p>
+
+<button id="nextButton" class="otree-btn-next btn btn-primary" disabled>Weiter</button>
+
+
+{% endblock %}

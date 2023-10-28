@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+{% load otree %}
+
+{% block global_styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'survey/css/style.css' %}">
+{% endblock %}
+
+{% block global_scripts %}
+    <script type="text/javascript" src="{% static 'survey/js/bootstrap.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+
+    <div id="NextButtonDiv" style="float: right">
+        {% block footer %}
+        {% endblock %}
+    </div>
+
+{% endblock %}

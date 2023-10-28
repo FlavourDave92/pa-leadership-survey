@@ -1,0 +1,55 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+    .otree-body {
+        max-width:1000px !important;
+    }
+    p{
+        font-size: 120%;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Teil 2: Investment-Entscheidung: Ergebnis</h3>
+    <p class="lead">Der Finanzmarkt hat sich {{ market_results_scenario_name }} entwickelt:</p>
+</div>
+
+    <table class="table table-hover">
+        <tbody>
+          <tr>
+            <td style="text-align: left">Guthaben</td>
+            <td style="text-align: right">{{ gambling_points }}</td>
+            <td style="text-align: left">Punkte</td>
+        </tr>
+        <tr>
+            <td style="text-align: left">Davon investiert</td>
+            <td style="text-align: right">{{ investment_amount }}</td>
+            <td style="text-align: left">Punkte</td>
+        </tr>
+        <tr>
+            <td style="text-align: left">Markt Ergebnis</td>
+            <td style="text-align: right">{{ investment_return }}</td>
+            <td style="text-align: left">Punkte</td>
+        </tr>
+        <tr class="table-active">
+            <td style="text-align: left">Ihre Zusätzliche Auszahlung ({{ gambling_points }} - {{ investment_amount }} + {{ investment_return }})</td>
+            <td style="text-align: right">{{ additional_payoff }}</td>
+            <td style="text-align: left">Punkte</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+
+<div class="NextButtonDiv">
+    {% next_button %}
+</div>
+
+{{ endblock }}

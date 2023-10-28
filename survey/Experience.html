@@ -1,0 +1,91 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+    .otree-body {
+        max-width: 1000px !important;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Teil 2: Befragung</h3>
+
+    <div class="instructions" style="text-align:center">
+        <b>Bitte machen Sie abschließend noch einige Angaben zu Ihrer Person.</b>
+    </div>
+</div>
+
+<div>
+
+<!-- <head>
+    <style>
+        .otree-btn-next {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            width: 100%;
+            display: block;
+        }
+
+        .col-form-label {
+            font-weight: bold;
+        }
+
+        table {
+            vertical-align: middle;
+            horiz-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 0;
+        }
+
+        .question_label {
+            font-weight: bold;
+        }
+    </style>
+
+</head> -->
+
+<p></p>
+{% formfield player.home_office %}
+
+<p></p>
+{% formfield player.home_office_need %}
+
+<p></p>
+{% formfield player.risk_propensity %}
+
+<p></p>
+{% formfield player.teamlead %}
+
+<p></p>
+{% formfield player.hr_job %}
+
+<p></p>
+
+{% formfield player.pa_heard %}
+
+<p></p>
+
+{% formfield player.pa_knowledge %}
+
+<p></p>
+
+{% formfield player.pa_experience %}
+
+{% formfield player.CMB1 %}
+
+{% formfield player.CMB2 %}
+
+{{ next_button }}
+
+{{ endblock }}

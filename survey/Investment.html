@@ -1,0 +1,51 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+    .otree-body {
+        max-width:1000px !important;
+    }
+    p{
+        font-size: 120%;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Teil 2: Investment-Entscheidung</h3>
+</div>
+
+<div style="margin-top: 30px">
+    <p>Jetzt haben Sie die Möglichkeit, in die erstellte Anlageempfehlung zu investieren und am Kapitalmarkt anzulegen.</p><br>
+
+    <p>Dazu stellen wir Ihnen ein Guthaben in Höhe von {{ gambling_points }} Punkten zur Verfügung. Sie können nun entscheiden, ob und wie viel dieser {{ gambling_points }} Punkte Sie in die erstellte Anlageempfehlung investieren möchten.</p><br>
+
+    <p>Anschließend simulieren wir den Verlauf des Finanzmarktes für 3 Jahre und berechnen die Entwicklung Ihrer Anlageempfehlung. Dabei kann, für Ihre investierten Punkte, ein Gewinn oder Verlust entstehen. Nicht-investierte Punkte werden Ihnen ohne Gewinn oder Verlust gutgeschrieben.</p><br>
+
+    <p>Das Ergebnis erhalten Sie im Nachgang des Experiments, zusätzlich zu Ihrer normalen Vergütung.</p><br><br>
+
+</div>
+
+
+<div class="mb-3 _formfield">
+    
+        <label class="col-form-label" for="id_invest_amount">Wie viele der {{ gambling_points }} Punkte möchten Sie in Ihre Anlageempfehlung investieren?</label>
+        <div class="controls">
+            <input type="number" class="form-control" id="id_invest_amount" max="{{ gambling_points }}" min="0" name="invest_amount" required="" value="" placeholder="Punkte">
+        </div>
+    
+    
+    
+</div>
+
+
+<div class="NextButtonDiv">
+    {% next_button %}
+</div>
+
+{{ endblock }}

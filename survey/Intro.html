@@ -1,0 +1,55 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+<style type="text/css">
+    .otree-body {
+        max-width:1300px !important;
+    }
+</style>
+
+
+<div class="jumbotron">
+    <h3>Einleitung: Erklär-Video</h3>
+
+<div class="instructions">
+    <b>Bitte aktivieren Sie Ihre Lautsprecher und sehen Sie sich dieses Video an. <br> Sie erreichen die Bedienelemente des Video-Players am unteren Ende der Website, zu dem Sie runterscrollen müssen.</b>
+</div>
+</div>
+
+
+
+
+{{ if treatment == "quirion" }}
+
+
+<div>
+	<video style="border: 1px solid #DDDDDD; max-width: 1276px;" controlsList="nodownload" src="{{ static 'survey/vid/quirion_intro.mp4' }}" controls>
+		Ihr Browser kann dieses Video nicht wiedergeben.<br/> Sie können es <a href="{{ static 'survey/vid/quirion_intro.mp4' }}">hier</a> abrufen.
+	</video>
+</div>
+
+
+{{ else}}
+
+<div>
+	<video style="border: 1px solid #DDDDDD; max-width: 1276px;" controlsList="nodownload" src="{{ static 'survey/vid/vv_intro.mp4' }}" controls>
+		Ihr Browser kann dieses Video nicht wiedergeben.<br/> Sie können es <a href="{{ static 'survey/vid/vv_intro.mp4' }}">hier</a> abrufen.
+	</video>
+</div>
+
+
+{{ endif }}
+<hr>
+
+<p><input type="checkbox" onchange="document.getElementById('nextButton').disabled = !this.checked;"/> Ich habe das Video vollständig gesehen und möchte mit dem Experiment fortfahren</p>
+
+<button id="nextButton" disabled class="otree-btn-next btn btn-primary">Weiter</button>
+
+
+
+{% endblock %}
