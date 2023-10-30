@@ -47,70 +47,62 @@ class Constants(BaseConstants):
 
 
 def creating_session(subsession):
-    for player in subsession.get_players():
-        state_items = [
-            "TRS1",
-            "TRS2",
-            "TRS3",
-            "TRO1",
-            "TRO2",
-            "TRO3",
-            "TRO4",
-            "TRO5",
-            "TRO6",
-            "TRO7",
-            "DTP1",
-            "DTP2",
-            "DTP3",
-            "PU1",
-            "PU2",
-            "PU3",
-            "PU4",
-            "ITQ1",
-            "ITQ2",
-            "ITQ3",
-            "PAPRC1",
-            "PAPRC2",
-            "PAPRC3",
-            "PAPRC4",
-            "CON1",
-            "MC1",
-            "MC2",
-            "PPA1",
-            "PPA2",
-            "PPA3",
-            "PPA4",
-            "PPA5",
-            "PPA6",
-        ]
+    # for player in subsession.get_players():
+    #     state_items = [
+    #         "PRS1T1",
+    #         "PRS1T2",
+    #         "PRS2T1",
+    #         "PRS2T2",
+    #         "PRS3T1",
+    #         "PRS3T2",
+    #         "PRS4T1",
+    #         "PRS4T2",
+    #         "FRS1T1",
+    #         "FRS1T2",
+    #         "FRS2T1",
+    #         "FRS2T2",
+    #         "FRS3T1",
+    #         "FRS3T2",
+    #         "FRS4T1",
+    #         "FRS4T2",
+    #         "ARS1T1",
+    #         "ARS1T2",
+    #         "ARS2T1",
+    #         "ARS2T2",
+    #         "ARS3T1",
+    #         "ARS3T2",
+    #         "ARS4T1",
+    #         "ARS4T2",
+    #     ]
 
-        random.shuffle(state_items)
+    #     random.shuffle(state_items)
 
-        player.participant.vars["StateItemsRandom"] = state_items
+    #     player.participant.vars["StateItemsRandom"] = state_items
 
-        state_items_rest = ["PR1", "PR2", "PR3", "PR4"]
-        random.shuffle(state_items_rest)
+    #     state_items_rest = ["PR1", "PR2", "PR3", "PR4"]
+    #     random.shuffle(state_items_rest)
 
-        player.participant.vars["StateItemsRestRandom"] = state_items_rest
+    #     player.participant.vars["StateItemsRestRandom"] = state_items_rest
 
-        # 8 items per page
-        player.participant.vars["StateItemsPage1"] = player.participant.vars[
-            "StateItemsRandom"
-        ][0:8]
-        player.participant.vars["StateItemsPage2"] = player.participant.vars[
-            "StateItemsRandom"
-        ][8:16]
-        player.participant.vars["StateItemsPage3"] = player.participant.vars[
-            "StateItemsRandom"
-        ][16:24]
-        player.participant.vars["StateItemsPage4"] = player.participant.vars[
-            "StateItemsRandom"
-        ][24:32]
-        player.participant.vars["StateItemsPage5"] = player.participant.vars[
-            "StateItemsRandom"
-        ][32:35]
+    #     # 8 items per page
+    #     player.participant.vars["StateItemsPage1"] = player.participant.vars[
+    #         "StateItemsRandom"
+    #     ][0:8]
+    #     player.participant.vars["StateItemsPage2"] = player.participant.vars[
+    #         "StateItemsRandom"
+    #     ][8:16]
+    #     player.participant.vars["StateItemsPage3"] = player.participant.vars[
+    #         "StateItemsRandom"
+    #     ][16:24]
+    #     player.participant.vars["StateItemsPage4"] = player.participant.vars[
+    #         "StateItemsRandom"
+    #     ][24:32]
+    #     player.participant.vars["StateItemsPage5"] = player.participant.vars[
+    #         "StateItemsRandom"
+    #     ][32:35]
 
-        player.session_variables = str(player.participant.vars)
+    #     player.session_variables = str(player.participant.vars)
+    pass
 
 
 def check_if_player_failed_quality_check(player):
@@ -245,113 +237,30 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect,
     )
 
-    # Manipulation Check
-    MAN_PA = make_field_7point(
-        "The decission about my bonus was the result of human rationale."
-    )
-    MAN_RETURN = make_field_7point("My bonus was relatively high.")
-
-    # State
-    PR1 = make_field_7point(
-        "… Aufzeichnungen über das Verhalten am Arbeitsplatz an Dritte weitergegeben werden?"
-    )
-    PR2 = make_field_7point("… personenbezogene Daten missbraucht werden?")
-    PR3 = make_field_7point(
-        "… personenbezogene Daten ohne das Wissen der Beschäftigten an andere Personen oder Firmen weitergegeben werden?"
-    )
-    PR4 = make_field_7point(
-        "… personenbezogene Daten an staatliche Behörden weitergegeben werden könnte?"
-    )
-    TRS1 = make_field_7point(
-        "Das System ist eine sichere Umgebung für die Nutzung am Arbeitsplatz."
-    )
-    TRS2 = make_field_7point("Das System ist eine zuverlässige Umgebung zum Arbeiten.")
-    TRS3 = make_field_7point(
-        "Das System geht kompetent mit den personebezogen Daten der Beschäftigten um."
-    )
-    TRO1 = make_field_7point(
-        "Ich glaube, dass diese*r Arbeitgeber*in eine hohe Integrität besitzt."
-    )
-    TRO2 = make_field_7point(
-        "Ich kann davon ausgehen, dass diese*r Arbeitgber*in mich konsistent und vorhersehbar behandelt."
-    )
-    TRO3 = make_field_7point(
-        "Diese*r Arbeitgeber*in ist nicht immer aufrichtig und ehrlich."
-    )
-    TRO4 = make_field_7point(
-        "Grundsätzlich glaube ich, dass diese*r Arbeitgeber*in gute Absichten und Motive hat."
-    )
-    TRO5 = make_field_7point(
-        "Ich glaube nicht, dass mich diese*r Arbeitgeber*in fair behandelt."
-    )
-    TRO6 = make_field_7point("Diese*r Arbeitgeber*in ist offen und ehrlich mit mir.")
-    TRO7 = make_field_7point(
-        "Ich bin mir nicht sicher, ob ich diese*r Arbeitgeber*in komplett vertraue."
-    )
-    DTP1 = make_field_7point(
-        "Im Vergleich zu anderen bin ich vorsichtiger was den Umgang mit meinen persönlichen Daten angeht."
-    )
-    DTP2 = make_field_7point(
-        "Im Vergleich zu anderen finde ich es wichtiger, persönliche Daten privat zu halten."
-    )
-    DTP3 = make_field_7point(
-        "Im Vergleich zu anderen habe ich weniger Bedenken bzgl. potentieller Gefahren für meine Privatsphäre."
-    )
-    PU1 = make_field_7point("Ich würde das System bei meiner Arbeit nützlich finden.")
-    PU2 = make_field_7point(
-        "Die Nutzung des Systems würde mir helfen, Aufgaben schneller zu erledigen."
-    )
-    PU3 = make_field_7point(
-        "Die Nutzung des Systems würde mir dabei helfen, meine Produktivität zu steigern."
-    )
-    PU4 = make_field_7point(
-        "Wenn ich das System nutzen würde, erhöhe ich meine Chancen auf eine Gehaltserhöhung."
-    )
-    ITQ1 = make_field_7point(
-        "Angesichts dieser Situation ist es wahrscheinlich, dass ich im nächsten Jahr aktiv nach einer neuen Stelle suchen werde."
-    )
-    ITQ2 = make_field_7point("In dieser Situation werde ich oft ans Kündigen denken.")
-    ITQ3 = make_field_7point(
-        "In dieser Situation werde ich mich wahrscheinlich im nächsten Jahr nach einer neuen Stelle umsehen."
-    )
-    PPA1 = make_field_7point(
-        "Das System kann menschliches Denken in den Hintergrund drängen und die Kompetenz von Führungskräften untergraben."
-    )
-    PPA2 = make_field_7point(
-        "Das System kann die Autonomie der Beschäftigten beeinträchtigen."
-    )
-    PPA3 = make_field_7point(
-        "Das System kann Pfadabhängigkeiten fördern. Das bedeutet, sich auf Maßnahmen zu konzentrieren, die sich in der Vergangenheit als erfolgreich erwiesen haben, während neue Muster und Parameter ignoriert werden."
-    )
-    PPA4 = make_field_7point(
-        "Bei Führungskräften kann das System zu Reduktionismus und einer Illusion von Kontrolle führen."
-    )
-    PPA5 = make_field_7point(
-        "Die vom System erstellten Analysen können zu selbsterfüllenden Prophezeiungen führen. Ob die Vorhersage korrekt war oder lediglich durch die Reaktion auf die Analyse wahrgeworden ist, kann nicht festgestellt werden."
-    )
-
-    PPA6 = make_field_7point(
-        "Das System kann Transparenz und Verantwortlichkeit beeinträchtigen."
-    )
-    PAPRC1 = make_field_7point(
-        "Ich bin besorgt, dass die von mir an das System übermittelten Informationen missbraucht werden könnten."
-    )
-    PAPRC2 = make_field_7point(
-        "Ich bin besorgt, dass eine Person private Informationen über mich im System finden könnte."
-    )
-    PAPRC3 = make_field_7point(
-        "Ich habe Bedenken, Informationen an das System zu übermitteln, weil ich nicht weiß, was andere damit anfangen können."
-    )
-    PAPRC4 = make_field_7point(
-        "Ich habe Bedenken, Informationen an das System zu übermitteln, weil sie auf eine Weise verwendet werden könnten, die ich nicht vorhergesehen habe."
-    )
-    CON1 = make_field_7point("Wählen Sie hier den zweiten Kreis von rechts (++) an.")
-    MC1 = make_field_7point(
-        "Das System stellt direkte Prognosen und Vorhersagen über zukünftige Entwicklungen bereit."
-    )
-    MC2 = make_field_7point(
-        "Das System stellt direkte Handlungsempfehlungen für die Optimierung einzelner Faktoren bereit."
-    )
+    PRS1T1 = make_field_7point("How risky do you perceive this alternative?")
+    PRS1T2 = make_field_7point("How risky do you perceive this alternative?")
+    PRS2T1 = make_field_7point("How risky do you perceive this alternative?")
+    PRS2T2 = make_field_7point("How risky do you perceive this alternative?")
+    PRS3T1 = make_field_7point("How risky do you perceive this alternative?")
+    PRS3T2 = make_field_7point("How risky do you perceive this alternative?")
+    PRS4T1 = make_field_7point("How risky do you perceive this alternative?")
+    PRS4T2 = make_field_7point("How risky do you perceive this alternative?")
+    FRS1T1 = make_field_7point("This team lead will feel responsible for the outcome.")
+    FRS1T2 = make_field_7point("This team lead will feel responsible for the outcome.")
+    FRS2T1 = make_field_7point("This team lead will feel responsible for the outcome.")
+    FRS2T2 = make_field_7point("This team lead will feel responsible for the outcome.")
+    FRS3T1 = make_field_7point("This team lead will feel responsible for the outcome.")
+    FRS3T2 = make_field_7point("This team lead will feel responsible for the outcome.")
+    FRS4T1 = make_field_7point("This team lead will feel responsible for the outcome.")
+    FRS4T2 = make_field_7point("This team lead will feel responsible for the outcome.")
+    ARS1T1 = make_field_7point("This team lead acted responsibly.")
+    ARS1T2 = make_field_7point("This team lead acted responsibly.")
+    ARS2T1 = make_field_7point("This team lead acted responsibly.")
+    ARS2T2 = make_field_7point("This team lead acted responsibly.")
+    ARS3T1 = make_field_7point("This team lead acted responsibly.")
+    ARS3T2 = make_field_7point("This team lead acted responsibly.")
+    ARS4T1 = make_field_7point("This team lead acted responsibly.")
+    ARS4T2 = make_field_7point("This team lead acted responsibly.")
 
 
 # PAGES
@@ -371,75 +280,75 @@ class QualityFail(Page):
 
 
 # PAGES
-class State1(Page):
-    form_model = "player"
-    template_name = "survey/Survey.html"
+# class State1(Page):
+#     form_model = "player"
+#     template_name = "survey/Survey.html"
 
-    @staticmethod
-    def get_form_fields(player):
-        fields = player.participant.vars["StateItemsPage1"]
-        return fields
+#     @staticmethod
+#     def get_form_fields(player):
+#         fields = player.participant.vars["StateItemsPage1"]
+#         return fields
 
-    @staticmethod
-    def before_next_page(player, timeout_happened):
-        player.player_qualityfail_url = get_player_qualityfail_url(
-            player.participant.label
-        )
-        player.player_complete_url = get_player_complete_url(player.participant.label)
-
-
-class State2(Page):
-    form_model = "player"
-    template_name = "survey/Survey.html"
-
-    @staticmethod
-    def get_form_fields(player):
-        fields = player.participant.vars["StateItemsPage2"]
-        return fields
+#     @staticmethod
+#     def before_next_page(player, timeout_happened):
+#         player.player_qualityfail_url = get_player_qualityfail_url(
+#             player.participant.label
+#         )
+#         player.player_complete_url = get_player_complete_url(player.participant.label)
 
 
-class State3(Page):
-    form_model = "player"
-    template_name = "survey/Survey.html"
+# class State2(Page):
+#     form_model = "player"
+#     template_name = "survey/Survey.html"
 
-    @staticmethod
-    def get_form_fields(player):
-        fields = player.participant.vars["StateItemsPage3"]
-        return fields
-
-
-class State4(Page):
-    form_model = "player"
-    template_name = "survey/Survey.html"
-
-    @staticmethod
-    def get_form_fields(player):
-        fields = player.participant.vars["StateItemsPage4"]
-        return fields
+#     @staticmethod
+#     def get_form_fields(player):
+#         fields = player.participant.vars["StateItemsPage2"]
+#         return fields
 
 
-class State5(Page):
-    form_model = "player"
-    template_name = "survey/Survey.html"
+# class State3(Page):
+#     form_model = "player"
+#     template_name = "survey/Survey.html"
 
-    @staticmethod
-    def get_form_fields(player):
-        fields = player.participant.vars["StateItemsPage5"]
-        return fields
+#     @staticmethod
+#     def get_form_fields(player):
+#         fields = player.participant.vars["StateItemsPage3"]
+#         return fields
 
 
-class StateRest(Page):
-    form_model = "player"
-    template_name = "survey/SurveyRest.html"
+# class State4(Page):
+#     form_model = "player"
+#     template_name = "survey/Survey.html"
 
-    @staticmethod
-    def get_form_fields(player):
-        fields = player.participant.vars["StateItemsRestRandom"]
-        return fields
+#     @staticmethod
+#     def get_form_fields(player):
+#         fields = player.participant.vars["StateItemsPage4"]
+#         return fields
 
-    @staticmethod
-    def before_next_page(player, timeout_happened):
-        player.failed_quality_check = check_if_player_failed_quality_check(player)
+
+# class State5(Page):
+#     form_model = "player"
+#     template_name = "survey/Survey.html"
+
+#     @staticmethod
+#     def get_form_fields(player):
+#         fields = player.participant.vars["StateItemsPage5"]
+#         return fields
+
+
+# class StateRest(Page):
+#     form_model = "player"
+#     template_name = "survey/SurveyRest.html"
+
+#     @staticmethod
+#     def get_form_fields(player):
+#         fields = player.participant.vars["StateItemsRestRandom"]
+#         return fields
+
+#     @staticmethod
+#     def before_next_page(player, timeout_happened):
+#         player.failed_quality_check = check_if_player_failed_quality_check(player)
 
 
 class Experience(Page):
@@ -481,14 +390,20 @@ class ManCheck(Page):
         return fields
 
 
+class Introduction(Page):
+    pass
+
 page_sequence = [
-    ManCheck,
-    State1,
-    State2,
-    State3,
-    State4,
-    State5,
-    StateRest,
+    Introduction,
+    Comprehension,
+    Szenario1,
+    Szenario1Outcome,
+    Szenario2,
+    Szenario2Outcome,
+    Szenario3,
+    Szenario3Outcome,
+    Szenario4,
+    Szenario4Outcome,
     QualityFail,
     Experience,
     Feedback,
