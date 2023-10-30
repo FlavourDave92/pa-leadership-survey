@@ -105,6 +105,10 @@ def creating_session(subsession):
     pass
 
 
+def check_if_player_failed_comprehension_check(player):
+    return Constants.right_comprehension_check_answer != player.comprehension
+
+
 def check_if_player_failed_quality_check(player):
     return player.CON1 != Constants.right_quality_check_answer
 
@@ -390,11 +394,78 @@ class ManCheck(Page):
         return fields
 
 
-class Introduction(Page):
-    pass
+class Landing(Page):
+    @staticmethod
+    def before_next_page(player, timeout_happened):
+        player.player_qualityfail_url = get_player_qualityfail_url(
+            player.participant.label
+        )
+
+
+class Comprehension(Page):
+    form_model = "player"
+    form_fields = ["comprehension"]
+
+    @staticmethod
+    def before_next_page(player, timeout_happened):
+        player.failed_comprehension_check = check_if_player_failed_comprehension_check(
+            player
+        )
+
+
+class Szenario1(Page):
+    form_model = "player"
+    template_name = "survey/Szenario1.html"
+
+    @staticmethod
+    def get_form_fields(player):
+        fields = ["PRS1T1", "PRS1T2"]
+        return fields
+
+
+class Szenario1Outcome(Page):
+    form_model = "player"
+    template_name = "survey/Szenario1Outcome.html"
+
+    @staticmethod
+    def get_form_fields(player):
+        fields = [
+            "FRS1T1",
+            "FRS1T2",
+            "ARS1T1",
+            "ARS1T2",
+        ]
+        return fields
+    
+class Szenario2(Page):
+    form_model = "player"
+    template_name = "survey/Szenario2.html"
+
+    @staticmethod
+    def get_form_fields(player):
+        fields = ["PRS2T1", "PRS2T2"]
+        return fields
+
+
+class Szenario2Outcome(Page):
+    form_model = "player"
+    template_name = "survey/Szenario2Outcome.html"
+
+    @staticmethod
+    def get_form_fields(player):
+        fields = [
+            "FRS2T1",
+            "FRS2T2",
+            "ARS2T1",
+            "ARS2T2",
+        ]
+        return fields
+    
+# TODO: add remaining scenario pages
+
 
 page_sequence = [
-    Introduction,
+    Landing,
     Comprehension,
     Szenario1,
     Szenario1Outcome,
