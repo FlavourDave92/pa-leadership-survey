@@ -1,4 +1,4 @@
-# pa-leadership-survey
+# pa-leadership-survey (mit Verena)
 
 ## example call
 http://localhost:8000/link/to/experiment/?participant_label=ProlificKey123
