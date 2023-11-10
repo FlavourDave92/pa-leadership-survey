@@ -1,0 +1,72 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+<style type="text/css">
+    .otree-body {
+        max-width: 1000px !important;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Scenario 1</h3>
+
+    <div class="instructions" style="text-align:left">
+        <b>Please carefully read through the following scenario and then answer the questions below.</b>
+    </div>
+</div>
+
+<div>
+    <p>Imagine two different HR projects.</p><br>
+    <p>Both projects face a problem that has different possible solutions.</p><br>
+    <p>The leader
+        for
+        project A chooses a familiar solution that they have used before, while the leader for project B chooses a new
+        solution,
+        relying on the advice a people analytics system (algorithmic decision-support system) made.</p><br>
+</div>
+
+
+<table class="table">
+    <tr>
+        <th class="left"></th>
+        <th width="9%" style="padding: 5px">not risky at all</th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px">very risky</th>
+    </tr>
+    <tr style>
+        <th class="left"></th>
+        <th width="9%" style="padding: 5px">---</th>
+        <th width="9%" style="padding: 5px">--</th>
+        <th width="9%" style="padding: 5px">-</th>
+        <th width="9%" style="padding: 5px">0</th>
+        <th width="9%" style="padding: 5px">+</th>
+        <th width="9%" style="padding: 5px">++</th>
+        <th width="9%" style="padding: 5px">+++</th>
+    </tr>
+    {% for field in form %}
+    <tr>
+        <td class="left">
+            <p>{{ field.label }}</p>
+        </td>
+        {% for choice in field %}
+        <td>
+            <p>{{ choice }}</p>
+        </td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+<div class="NextButtonDiv">
+    {% next_button %}
+</div>
+{% endblock %}

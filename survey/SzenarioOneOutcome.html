@@ -1,0 +1,88 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+<style type="text/css">
+    .otree-body {
+        max-width: 1000px !important;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Scenario 1 Outcome</h3>
+
+    <div class="instructions" style="text-align:left">
+        <b>Now, please carefully read the outcome of the scenario and then answer the questions below.</b>
+    </div>
+</div>
+
+<div>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Decision</th>
+                <th scope="col">Outcome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Project A</th>
+                <td>Leader chose a familiar solution that they have used before</td>
+                <td style="color: green;"><b>Positive</b></td>
+            </tr>
+            <tr>
+                <th scope="row">Project B</th>
+                <td>Leader chose a new solution, relying on the advice a people analytics system (algorithmic
+                    decision-support system)</td>
+                <td style="color: green;"><b>Positive</b></td>
+            </tr>
+        </tbody>
+    </table>
+</div><br><br><br>
+
+
+<table class="table">
+    <tr>
+        <th class="left"></th>
+        <th width="9%" style="padding: 5px">strongly disagree</th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px"></th>
+        <th width="9%" style="padding: 5px">strongly agree</th>
+    </tr>
+    <tr style>
+        <th class="left"></th>
+        <th width="9%" style="padding: 5px">---</th>
+        <th width="9%" style="padding: 5px">--</th>
+        <th width="9%" style="padding: 5px">-</th>
+        <th width="9%" style="padding: 5px">0</th>
+        <th width="9%" style="padding: 5px">+</th>
+        <th width="9%" style="padding: 5px">++</th>
+        <th width="9%" style="padding: 5px">+++</th>
+    </tr>
+    {% for field in form %}
+    <tr>
+        <td class="left">
+            <p>{{ field.label }}</p>
+        </td>
+        {% for choice in field %}
+        <td>
+            <p>{{ choice }}</p>
+        </td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+<div class="NextButtonDiv">
+    {% next_button %}
+</div>
+{% endblock %}

@@ -241,30 +241,46 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect,
     )
 
-    PRS1T1 = make_field_7point("How risky do you perceive this alternative?")
-    PRS1T2 = make_field_7point("How risky do you perceive this alternative?")
-    PRS2T1 = make_field_7point("How risky do you perceive this alternative?")
-    PRS2T2 = make_field_7point("How risky do you perceive this alternative?")
-    PRS3T1 = make_field_7point("How risky do you perceive this alternative?")
-    PRS3T2 = make_field_7point("How risky do you perceive this alternative?")
-    PRS4T1 = make_field_7point("How risky do you perceive this alternative?")
-    PRS4T2 = make_field_7point("How risky do you perceive this alternative?")
-    FRS1T1 = make_field_7point("This team lead will feel responsible for the outcome.")
-    FRS1T2 = make_field_7point("This team lead will feel responsible for the outcome.")
-    FRS2T1 = make_field_7point("This team lead will feel responsible for the outcome.")
-    FRS2T2 = make_field_7point("This team lead will feel responsible for the outcome.")
-    FRS3T1 = make_field_7point("This team lead will feel responsible for the outcome.")
-    FRS3T2 = make_field_7point("This team lead will feel responsible for the outcome.")
-    FRS4T1 = make_field_7point("This team lead will feel responsible for the outcome.")
-    FRS4T2 = make_field_7point("This team lead will feel responsible for the outcome.")
-    ARS1T1 = make_field_7point("This team lead acted responsibly.")
-    ARS1T2 = make_field_7point("This team lead acted responsibly.")
-    ARS2T1 = make_field_7point("This team lead acted responsibly.")
-    ARS2T2 = make_field_7point("This team lead acted responsibly.")
-    ARS3T1 = make_field_7point("This team lead acted responsibly.")
-    ARS3T2 = make_field_7point("This team lead acted responsibly.")
-    ARS4T1 = make_field_7point("This team lead acted responsibly.")
-    ARS4T2 = make_field_7point("This team lead acted responsibly.")
+    PRS1T1 = make_field_7point(
+        "How risky do you rate the action of the leader of Project A?"
+    )
+    PRS1T2 = make_field_7point(
+        "How risky do you rate the action of the leader of Project B?"
+    )
+    PRS2T1 = make_field_7point(
+        "How risky do you rate the action of the leader of Project A?"
+    )
+    PRS2T2 = make_field_7point(
+        "How risky do you rate the action of the leader of Project B?"
+    )
+    PRS3T1 = make_field_7point(
+        "How risky do you rate the action of the leader of Project A?"
+    )
+    PRS3T2 = make_field_7point(
+        "How risky do you rate the action of the leader of Project B?"
+    )
+    PRS4T1 = make_field_7point(
+        "How risky do you rate the action of the leader of Project A?"
+    )
+    PRS4T2 = make_field_7point(
+        "How risky do you rate the action of the leader of Project B?"
+    )
+    FRS1T1 = make_field_7point("The leader of Project A will feel responsible for the outcome.")
+    FRS1T2 = make_field_7point("The leader of Project B will feel responsible for the outcome.")
+    FRS2T1 = make_field_7point("The leader of Project A will feel responsible for the outcome.")
+    FRS2T2 = make_field_7point("The leader of Project B will feel responsible for the outcome.")
+    FRS3T1 = make_field_7point("The leader of Project A will feel responsible for the outcome.")
+    FRS3T2 = make_field_7point("The leader of Project B will feel responsible for the outcome.")
+    FRS4T1 = make_field_7point("The leader of Project A will feel responsible for the outcome.")
+    FRS4T2 = make_field_7point("The leader of Project B will feel responsible for the outcome.")
+    ARS1T1 = make_field_7point("The leader of Project A acted responsibly.")
+    ARS1T2 = make_field_7point("The leader of Project B acted responsibly.")
+    ARS2T1 = make_field_7point("The leader of Project A acted responsibly.")
+    ARS2T2 = make_field_7point("The leader of Project B acted responsibly.")
+    ARS3T1 = make_field_7point("The leader of Project A acted responsibly.")
+    ARS3T2 = make_field_7point("The leader of Project B acted responsibly.")
+    ARS4T1 = make_field_7point("The leader of Project A acted responsibly.")
+    ARS4T2 = make_field_7point("The leader of Project B acted responsibly.")
 
 
 # PAGES
@@ -413,9 +429,9 @@ class Comprehension(Page):
         )
 
 
-class Szenario1(Page):
+class SzenarioOne(Page):
     form_model = "player"
-    template_name = "survey/Szenario1.html"
+    template_name = "survey/SzenarioOne.html"
 
     @staticmethod
     def get_form_fields(player):
@@ -423,9 +439,9 @@ class Szenario1(Page):
         return fields
 
 
-class Szenario1Outcome(Page):
+class SzenarioOneOutcome(Page):
     form_model = "player"
-    template_name = "survey/Szenario1Outcome.html"
+    template_name = "survey/SzenarioOneOutcome.html"
 
     @staticmethod
     def get_form_fields(player):
@@ -436,10 +452,11 @@ class Szenario1Outcome(Page):
             "ARS1T2",
         ]
         return fields
-    
-class Szenario2(Page):
+
+
+class SzenarioTwo(Page):
     form_model = "player"
-    template_name = "survey/Szenario2.html"
+    template_name = "survey/SzenarioTwo.html"
 
     @staticmethod
     def get_form_fields(player):
@@ -447,9 +464,9 @@ class Szenario2(Page):
         return fields
 
 
-class Szenario2Outcome(Page):
+class SzenarioTwoOutcome(Page):
     form_model = "player"
-    template_name = "survey/Szenario2Outcome.html"
+    template_name = "survey/SzenarioTwoOutcome.html"
 
     @staticmethod
     def get_form_fields(player):
@@ -460,21 +477,72 @@ class Szenario2Outcome(Page):
             "ARS2T2",
         ]
         return fields
-    
+
+
+class SzenarioThree(Page):
+    form_model = "player"
+    template_name = "survey/SzenarioThree.html"
+
+    @staticmethod
+    def get_form_fields(player):
+        fields = ["PRS3T1", "PRS3T2"]
+        return fields
+
+
+class SzenarioThreeOutcome(Page):
+    form_model = "player"
+    template_name = "survey/SzenarioThreeOutcome.html"
+
+    @staticmethod
+    def get_form_fields(player):
+        fields = [
+            "FRS3T1",
+            "FRS3T2",
+            "ARS3T1",
+            "ARS3T2",
+        ]
+        return fields
+
+
+class SzenarioFour(Page):
+    form_model = "player"
+    template_name = "survey/SzenarioFour.html"
+
+    @staticmethod
+    def get_form_fields(player):
+        fields = ["PRS4T1", "PRS4T2"]
+        return fields
+
+
+class SzenarioFourOutcome(Page):
+    form_model = "player"
+    template_name = "survey/SzenarioFourOutcome.html"
+
+    @staticmethod
+    def get_form_fields(player):
+        fields = [
+            "FRS4T1",
+            "FRS4T2",
+            "ARS4T1",
+            "ARS4T2",
+        ]
+        return fields
+
+
 # TODO: add remaining scenario pages
 
 
 page_sequence = [
     Landing,
-    Comprehension,
-    Szenario1,
-    Szenario1Outcome,
-    Szenario2,
-    Szenario2Outcome,
-    Szenario3,
-    Szenario3Outcome,
-    Szenario4,
-    Szenario4Outcome,
+    # Comprehension,
+    SzenarioOne,
+    SzenarioOneOutcome,
+    SzenarioTwo,
+    SzenarioTwoOutcome,
+    SzenarioThree,
+    SzenarioThreeOutcome,
+    SzenarioFour,
+    SzenarioFourOutcome,
     QualityFail,
     Experience,
     Feedback,

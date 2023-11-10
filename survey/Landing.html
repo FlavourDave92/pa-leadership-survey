@@ -1,0 +1,48 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{% block content %}
+
+<div class="form-style-10">
+    <h1>Hello and welcome to our study!</h1>
+
+    First and foremost, we would like to thank you for taking part, your support for our study is greatly
+    appreciated.<br><br>
+
+    Please note: In this study, you may earn a <b>bonus payment</b> during the course of the study, which will be
+    credited to
+    you after study completion.
+    <br><br>
+    This study consists of two parts:
+    <br><br>
+    <ol>
+        <li>A workplace-related scenario with a task to fulfill.</li>
+        <li>A subsequent survey.</li>
+    </ol>
+
+    On the next page, we will introduce you to the scenario of this study.
+    <br><br>
+
+    Although the scenario may seem hypothetical, we kindly ask you to put yourself in this situation as well as
+    possible.
+    Please respond to all questions as instinctively and truthfully as possible.
+    <br><br>
+
+    Once again, thank you very much for your support!<br><br>
+
+
+    <p><input type="checkbox" onchange="document.getElementById('nextButton').disabled = !this.checked;" /> I have read
+        and understood the conditions described above. I agree with the conditions mentioned and would like to
+        participate in the survey.
+    </p>
+
+
+    <button disabled class="otree-btn-next btn btn-primary next-button otree-next-button" id="nextButton">Let's go
+    </button>
+</div>
+
+{% endblock %}

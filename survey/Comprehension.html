@@ -1,0 +1,72 @@
+{% extends "survey/Base.html" %}
+{% load otree static %}
+
+{% block title %}
+Experiment
+{% endblock %}
+
+{{ block head }}
+<link rel="stylesheet" href="{{ static 'fontawesome.css' }}">
+<link rel="stylesheet" href="{{ static 'solid.css' }}">
+{{ endblock }}
+
+{% block content %}
+<style type="text/css">
+    .otree-body {
+        max-width: 1000px !important;
+    }
+</style>
+
+<div class="jumbotron">
+    <h3>Scenario</h3>
+
+    <!-- <div class="instructions" style="text-align:center">
+        <b>Please answer the following question.</b>
+    </div> -->
+</div>
+
+<p>Please put yourself in the following situation:</p><br>
+<h3><i class="fa-solid fa-briefcase" style="color: #306CF4;"></i></i></i></h3>
+<p>The organisation you work for is about to decide on the individual bonuses to be paid to employees on completion of
+    the
+    next
+    project.</p><br>
+
+<h3><i class="fa-solid fa-money-bill-wave" style="color: #306CF4;"></i></h3>
+{{ if player.treatment_pa == 'autonomy' }}
+<p>To determine the size of the bonus for each employee, your team lead agreed to rely on an algorithmic workplace
+    analytics system (a computerized decision-making tool) that considers a variety of factors. After the workplace
+    analytics system made a series of computations, it autonomously determines and allocates how employee bonuses should
+    be
+    allocated.</p>
+
+{{ elif player.treatment_pa == 'assist' }}
+<p>To determine the size of the bonus for each employee, your organisation relies on its team leads, which consider a
+    variety of factors. After your team lead makes a series of deliberations, they determine how employee bonuses should
+    be
+    allocated. Your team lead has the option to consider the recommendations of an algorithmic management system (a
+    computerized decision-making tool) to assist in making their determinations.</p>
+
+{{ else }}
+<p>To determine the size of the bonus for each employee, your organisation relies on its team leads, which consider a
+    variety of factors. After each team lead makes a series of deliberations, they determine how employee bonuses should
+    be
+    allocated.</p>
+
+{{ endif }}
+<br>
+<h3><i class="fa-solid fa-bullseye" style="color: #306CF4;"></i></h3>
+<p>The task you and your team members are challenged with in the project requires both accuracy and pace. The overall
+    time
+    you have to fulfil your task is limited. Further introduction to your task will be on the subsequent page.</p>
+
+<br><br>
+<br><br>
+<hr>
+
+{{ formfields }}
+
+
+<button id="nextButton" class="otree-btn-next btn btn-primary">Continue</button>
+
+{% endblock %}
