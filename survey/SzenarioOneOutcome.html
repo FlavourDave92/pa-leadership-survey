@@ -32,12 +32,12 @@ Experiment
         </thead>
         <tbody>
             <tr>
-                <th scope="row">Project A</th>
+                <th scope="row">Project&nbsp;A</th>
                 <td>Leader chose a familiar solution that they have used before</td>
                 <td style="color: green;"><b>Positive</b></td>
             </tr>
             <tr>
-                <th scope="row">Project B</th>
+                <th scope="row">Project&nbsp;B</th>
                 <td>Leader chose a new solution, relying on the advice a people analytics system (algorithmic
                     decision-support system)</td>
                 <td style="color: green;"><b>Positive</b></td>
@@ -79,6 +79,9 @@ Experiment
         </td>
         {% endfor %}
     </tr>
+    {% if forloop.counter == 2 %}
+    <tr style="height: 30px; border-bottom: 1px solid #dee2e6;"></tr>
+    {% endif %}
     {% endfor %}
 </table>
 

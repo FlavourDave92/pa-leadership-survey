@@ -138,29 +138,35 @@ class Player(BasePlayer):
     )
 
     # Trait
+    feedback = models.LongStringField(
+        label="We are very grateful for your feedback on our experiment:",
+        blank=True,
+    )
+
+    # Trait
     home_office = models.IntegerField(
-        label="Wie häufig arbeiten Sie aktuell von Zuhause (Home Office)?",
+        label="How often do you currently work from home (home office)?",
         choices=[
-            [0, "nie"],
-            [1, "weniger als die Hälfte meiner Arbeitszeit"],
-            [2, "mehr als die Hälfte meiner Arbeitszeit"],
-            [3, "immer"],
+            [0, "never"],
+            [1, "less than half of my working hours"],
+            [2, "more than half of my working hours"],
+            [3, "always"],
         ],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     home_office_need = models.IntegerField(
-        label="Würden Sie gerne häufiger/seltener von Zuhause arbeiten (Home Office)?",
-        choices=[[0, "häufiger"], [1, "gleich viel wie aktuell"], [3, "seltener"]],
+        label="Would you like to work from home more often/less often (home office)?",
+        choices=[[0, "more often"], [1, "same amount as currently"], [3, "less often"]],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     risk_propensity = models.IntegerField(
-        label="Wie schätzen Sie sich persönlich ein: Sind Sie im allgemeinen ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden?",
+        label="How do you see yourself: Are you prepared to take risks, or do you rather try to avoid them?",
         choices=[
-            [0, "0: überhaupt nicht risikofreudig"],
+            [0, "0: not at all willing to take risks"],
             [1, "1"],
             [2, "2"],
             [3, "3"],
@@ -170,117 +176,112 @@ class Player(BasePlayer):
             [7, "7"],
             [8, "8"],
             [9, "9"],
-            [10, "10: sehr risikofreudig"],
+            [10, "10: very willing to take risks"],
         ],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     teamlead = models.IntegerField(
-        label="Haben Sie in Ihrem echten Berufsleben aktuell Personalverantwortung?",
-        choices=[[0, "nein"], [1, "ja"]],
+        label="Do you currently have personnel responsibility in your real working life?",
+        choices=[[0, "no"], [1, "yes"]],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     hr_job = models.IntegerField(
-        label="Arbeiten Sie in Ihrem echten Berufsleben aktuell im Personalwesen (HR)?",
-        choices=[[0, "nein"], [1, "ja"]],
+        label="Do you currently work in human resources (HR) in your real professional life?",
+        choices=[[0, "no"], [1, "yes"]],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     pa_heard = models.IntegerField(
-        label="Kennen Sie den Begriff „People Analytics“?",
-        choices=[[0, "nein"], [1, "ja"]],
+        label='Are you familiar with the term "people analytics"?',
+        choices=[[0, "no"], [1, "yes"]],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     pa_knowledge = models.IntegerField(
-        label="Wissen Sie, was mit dem Begriff „People Analytics“ gemeint ist?",
-        choices=[[0, "nein"], [1, "ja"]],
+        label='Do you know what is meant by the term "people analytics"?',
+        choices=[[0, "no"], [1, "yes"]],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     pa_experience = models.IntegerField(
-        label="Haben Sie jemals in einem Unternehmen gearbeitet, das aktiv ein System, wie das im Experiment gezeigte, verwendet hat?",
-        choices=[[0, "nein"], [1, "ja"]],
+        label="Have you ever worked in a company that actively used a people analytics system?",
+        choices=[[0, "no"], [1, "yes"]],
         blank=False,
         widget=widgets.RadioSelect,
     )
+    
+    # Control Question
+    CON1 = make_field_7point("Please select the second circle from the right (++).")
 
     CMB1 = models.IntegerField(
-        label="Ich bin zufrieden mit der Stadt, in der ich lebe.",
+        label="I am happy with the city I live in.",
         choices=[
-            [1, "1: stimme überhaupt nicht zu"],
+            [1, "1: fully disagree"],
             [2, "2"],
             [3, "3"],
             [4, "4"],
             [5, "5"],
             [6, "6"],
-            [7, "7: stimme voll und ganz zu"],
+            [7, "7: fully agree"],
         ],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     CMB2 = models.IntegerField(
-        label="Ich bin mit den Fernsehprogrammen zufrieden.",
+        label="I am happy with the television programs.",
         choices=[
-            [1, "1: stimme überhaupt nicht zu"],
+            [1, "1: fully disagree"],
             [2, "2"],
             [3, "3"],
             [4, "4"],
             [5, "5"],
             [6, "6"],
-            [7, "7: stimme voll und ganz zu"],
+            [7, "7: fully agree"],
         ],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     PRS1T1 = make_field_7point(
-        "How risky do you rate the action of the leader of Project A?"
+        "How risky do you rate the action of the leader of Project\xa0A?"  # \xa0 = non-breaking space
     )
     PRS1T2 = make_field_7point(
-        "How risky do you rate the action of the leader of Project B?"
+        "How risky do you rate the action of the leader of Project\xa0B?"
     )
-    PRS2T1 = make_field_7point(
-        "How risky do you rate the action of the leader of Project A?"
+    PRS2T1 = make_field_7point("How risky do you rate the action of leader\xa0A?")
+    PRS2T2 = make_field_7point("How risky do you rate the action of leader\xa0B?")
+    PRS3T1 = make_field_7point("How risky do you rate the action of leader\xa0A?")
+    PRS3T2 = make_field_7point("How risky do you rate the action of leader\xa0B?")
+    PRS4T1 = make_field_7point("How risky do you rate the action of leader\xa0A?")
+    PRS4T2 = make_field_7point("How risky do you rate the action of leader\xa0B?")
+    FRS1T1 = make_field_7point(
+        "The leader of Project A will feel responsible for the outcome."
     )
-    PRS2T2 = make_field_7point(
-        "How risky do you rate the action of the leader of Project B?"
+    FRS1T2 = make_field_7point(
+        "The leader of Project B will feel responsible for the outcome."
     )
-    PRS3T1 = make_field_7point(
-        "How risky do you rate the action of the leader of Project A?"
-    )
-    PRS3T2 = make_field_7point(
-        "How risky do you rate the action of the leader of Project B?"
-    )
-    PRS4T1 = make_field_7point(
-        "How risky do you rate the action of the leader of Project A?"
-    )
-    PRS4T2 = make_field_7point(
-        "How risky do you rate the action of the leader of Project B?"
-    )
-    FRS1T1 = make_field_7point("The leader of Project A will feel responsible for the outcome.")
-    FRS1T2 = make_field_7point("The leader of Project B will feel responsible for the outcome.")
-    FRS2T1 = make_field_7point("The leader of Project A will feel responsible for the outcome.")
-    FRS2T2 = make_field_7point("The leader of Project B will feel responsible for the outcome.")
-    FRS3T1 = make_field_7point("The leader of Project A will feel responsible for the outcome.")
-    FRS3T2 = make_field_7point("The leader of Project B will feel responsible for the outcome.")
-    FRS4T1 = make_field_7point("The leader of Project A will feel responsible for the outcome.")
-    FRS4T2 = make_field_7point("The leader of Project B will feel responsible for the outcome.")
-    ARS1T1 = make_field_7point("The leader of Project A acted responsibly.")
-    ARS1T2 = make_field_7point("The leader of Project B acted responsibly.")
-    ARS2T1 = make_field_7point("The leader of Project A acted responsibly.")
-    ARS2T2 = make_field_7point("The leader of Project B acted responsibly.")
-    ARS3T1 = make_field_7point("The leader of Project A acted responsibly.")
-    ARS3T2 = make_field_7point("The leader of Project B acted responsibly.")
-    ARS4T1 = make_field_7point("The leader of Project A acted responsibly.")
-    ARS4T2 = make_field_7point("The leader of Project B acted responsibly.")
+    FRS2T1 = make_field_7point("Leader\xa0A will feel responsible for the outcome.")
+    FRS2T2 = make_field_7point("Leader\xa0B will feel responsible for the outcome.")
+    FRS3T1 = make_field_7point("Leader\xa0A will feel responsible for the outcome.")
+    FRS3T2 = make_field_7point("Leader\xa0B will feel responsible for the outcome.")
+    FRS4T1 = make_field_7point("Leader\xa0A will feel responsible for the outcome.")
+    FRS4T2 = make_field_7point("Leader\xa0B will feel responsible for the outcome.")
+    ARS1T1 = make_field_7point("The leader of Project\xa0A acted responsibly.")
+    ARS1T2 = make_field_7point("The leader of Project\xa0B acted responsibly.")
+    ARS2T1 = make_field_7point("Leader\xa0A acted responsibly.")
+    ARS2T2 = make_field_7point("Leader\xa0B acted responsibly.")
+    ARS3T1 = make_field_7point("Leader\xa0A acted responsibly.")
+    ARS3T2 = make_field_7point("Leader\xa0B acted responsibly.")
+    ARS4T1 = make_field_7point("Leader\xa0A acted responsibly.")
+    ARS4T2 = make_field_7point("Leader\xa0B acted responsibly.")
 
 
 # PAGES
@@ -447,8 +448,8 @@ class SzenarioOneOutcome(Page):
     def get_form_fields(player):
         fields = [
             "FRS1T1",
-            "FRS1T2",
             "ARS1T1",
+            "FRS1T2",
             "ARS1T2",
         ]
         return fields
@@ -472,8 +473,8 @@ class SzenarioTwoOutcome(Page):
     def get_form_fields(player):
         fields = [
             "FRS2T1",
-            "FRS2T2",
             "ARS2T1",
+            "FRS2T2",
             "ARS2T2",
         ]
         return fields
@@ -497,11 +498,16 @@ class SzenarioThreeOutcome(Page):
     def get_form_fields(player):
         fields = [
             "FRS3T1",
-            "FRS3T2",
             "ARS3T1",
+            "FRS3T2",
+            "CON1",
             "ARS3T2",
         ]
         return fields
+
+    @staticmethod
+    def before_next_page(player, timeout_happened):
+        player.failed_quality_check = check_if_player_failed_quality_check(player)
 
 
 class SzenarioFour(Page):
@@ -522,11 +528,18 @@ class SzenarioFourOutcome(Page):
     def get_form_fields(player):
         fields = [
             "FRS4T1",
-            "FRS4T2",
             "ARS4T1",
+            "FRS4T2",
             "ARS4T2",
         ]
         return fields
+
+    @staticmethod
+    def before_next_page(player, timeout_happened):
+        player.player_qualityfail_url = get_player_qualityfail_url(
+            player.participant.label
+        )
+        player.player_complete_url = get_player_complete_url(player.participant.label)
 
 
 # TODO: add remaining scenario pages

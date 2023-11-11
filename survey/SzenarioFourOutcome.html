@@ -13,49 +13,48 @@ Experiment
 </style>
 
 <div class="jumbotron">
-    <h3>Scenario 1</h3>
+    <h3>Scenario 4 Outcome</h3>
 
     <div class="instructions" style="text-align:left">
-        <b>Please carefully read through the following scenario and then answer the questions below.</b>
+        <b>Now, please carefully read the outcome of the scenario and then answer the questions below.</b>
     </div>
 </div>
 
 <div>
-    <p>Imagine two different HR projects.</p><br>
-    <p>Both projects face a problem that has different possible solutions.</p><br>
-    <p>The <b>leader
-            for
-            project A</b> chooses a familiar solution that they have used before, while the <b>leader for project B</b>
-        chooses a new
-        solution,
-        relying on the advice a people analytics system (algorithmic decision-support system) made:</p><br>
-</div>
-
-<div class="dialog">
-    <div>
-        <p class="bubble speech">I choose a familiar solution that we have used before.</p>
-        <img src="{{ static 'survey/img/lead_a.jpg' }}" alt="avatar" class="d-flex align-self-center me-3" width="60">
-    </div>
-    <div>
-        <p class="bubble speech right">I choose a new
-            solution,
-            relying on the advice a people analytics system (algorithmic decision-support system).</p>
-        <img src="{{ static 'survey/img/lead_b.jpg' }}" alt="avatar" class="d-flex align-self-center me-3 avatar-right"
-            width="60">
-    </div>
-</div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Decision</th>
+                <th scope="col">Outcome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Leader&nbsp;A</th>
+                <td>Awaits to see if blows over by itself</td>
+                <td style="color: green;"><b>Positive</b></td>
+            </tr>
+            <tr>
+                <th scope="row">Leader&nbsp;B</th>
+                <td>Choose to actively solve the problem</td>
+                <td style="color: green;"><b>Positive</b></td>
+            </tr>
+        </tbody>
+    </table>
+</div><br><br><br>
 
 
 <table class="table">
     <tr>
         <th class="left"></th>
-        <th width="9%" style="padding: 5px">not risky at all</th>
+        <th width="9%" style="padding: 5px">strongly disagree</th>
         <th width="9%" style="padding: 5px"></th>
         <th width="9%" style="padding: 5px"></th>
         <th width="9%" style="padding: 5px"></th>
         <th width="9%" style="padding: 5px"></th>
         <th width="9%" style="padding: 5px"></th>
-        <th width="9%" style="padding: 5px">very risky</th>
+        <th width="9%" style="padding: 5px">strongly agree</th>
     </tr>
     <tr style>
         <th class="left"></th>
@@ -78,6 +77,9 @@ Experiment
         </td>
         {% endfor %}
     </tr>
+    {% if forloop.counter == 2 %}
+    <tr style="height: 30px; border-bottom: 1px solid #dee2e6;"></tr>
+    {% endif %}
     {% endfor %}
 </table>
 

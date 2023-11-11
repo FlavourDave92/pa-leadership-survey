@@ -2,24 +2,24 @@
 {% load otree static %}
 
 {% block title %}
-    Experiment
+Experiment
 {% endblock %}
 
 {% block content %}
-    <style>
-        .form-style-10 label {
-            color: #FFFFFF;
-        }
-    </style>
-    <div class="form-style-10">
-        <h1>Vielen Dank<span><br>
-            Sie können das Experiment mit dem Button unten nun beenden.<br><br>
+<style>
+    .form-style-10 label {
+        color: #FFFFFF;
+    }
+</style>
+<div class="form-style-10">
+    <h1>Thank you<span><br>
+            You can now end the experiment with the button below.<br><br>
             {% formfields %}
 
-    Vielen Dank für Ihre Teilnahme!</span></h1>
-        <button class="otree-btn-next btn btn-primary next-button otree-next-button" style="margin-bottom: 15px;"
-                id="nextbutton">Weiter
-        </button>
-    </div>
+            Thank you for your participation!</span></h1>
+    <button class="otree-btn-next btn btn-primary next-button otree-next-button" style="margin-bottom: 15px;"
+        id="nextbutton">End Experiment
+    </button>
+</div>
 
 {% endblock %}

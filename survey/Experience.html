@@ -14,16 +14,16 @@ Experiment
 </style>
 
 <div class="jumbotron">
-    <h3>Teil 2: Befragung</h3>
+    <h3>Questions</h3>
 
     <div class="instructions" style="text-align:center">
-        <b>Bitte machen Sie abschließend noch einige Angaben zu Ihrer Person.</b>
+        <b>Finally, please provide some more information about yourself.</b>
     </div>
 </div>
 
 <div>
 
-<!-- <head>
+    <!-- <head>
     <style>
         .otree-btn-next {
             margin-left: auto;
@@ -55,37 +55,37 @@ Experiment
 
 </head> -->
 
-<p></p>
-{% formfield player.home_office %}
+    <p></p>
+    {% formfield player.home_office %}
 
-<p></p>
-{% formfield player.home_office_need %}
+    <p></p>
+    {% formfield player.home_office_need %}
 
-<p></p>
-{% formfield player.risk_propensity %}
+    <p></p>
+    {% formfield player.risk_propensity %}
 
-<p></p>
-{% formfield player.teamlead %}
+    <p></p>
+    {% formfield player.teamlead %}
 
-<p></p>
-{% formfield player.hr_job %}
+    <p></p>
+    {% formfield player.hr_job %}
 
-<p></p>
+    <p></p>
 
-{% formfield player.pa_heard %}
+    {% formfield player.pa_heard %}
 
-<p></p>
+    <p></p>
 
-{% formfield player.pa_knowledge %}
+    {% formfield player.pa_knowledge %}
 
-<p></p>
+    <p></p>
 
-{% formfield player.pa_experience %}
+    {% formfield player.pa_experience %}
 
-{% formfield player.CMB1 %}
+    {% formfield player.CMB1 %}
 
-{% formfield player.CMB2 %}
+    {% formfield player.CMB2 %}
 
-{{ next_button }}
+    {{ next_button }}
 
-{{ endblock }}
+    {{ endblock }}
