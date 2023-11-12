@@ -31,6 +31,7 @@ Experiment
             </tr>
         </thead>
         <tbody>
+            {% if player.positive_szenarios == '1_and_4' %}
             <tr>
                 <th scope="row">Project&nbsp;A</th>
                 <td>Leader chose a familiar solution that they have used before</td>
@@ -42,6 +43,20 @@ Experiment
                     decision-support system)</td>
                 <td style="color: green;"><b>Positive</b></td>
             </tr>
+            {% else %}
+            <tr>
+                <th scope="row">Project&nbsp;A</th>
+                <td>Leader chose a familiar solution that they have used before</td>
+                <td style="color: red;"><b>Negative</b></td>
+            </tr>
+            <tr>
+                <th scope="row">Project&nbsp;B</th>
+                <td>Leader chose a new solution, relying on the advice a people analytics system (algorithmic
+                    decision-support system)</td>
+                <td style="color: red;"><b>Negative</b></td>
+            </tr>
+
+            {% endif %}
         </tbody>
     </table>
 </div><br><br><br>
@@ -79,7 +94,7 @@ Experiment
         </td>
         {% endfor %}
     </tr>
-    {% if forloop.counter == 2 %}
+    {% if forloop.counter == 4 %}
     <tr style="height: 30px; border-bottom: 1px solid #dee2e6;"></tr>
     {% endif %}
     {% endfor %}

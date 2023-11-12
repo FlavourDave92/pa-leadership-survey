@@ -47,62 +47,13 @@ class Constants(BaseConstants):
 
 
 def creating_session(subsession):
-    # for player in subsession.get_players():
-    #     state_items = [
-    #         "PRS1T1",
-    #         "PRS1T2",
-    #         "PRS2T1",
-    #         "PRS2T2",
-    #         "PRS3T1",
-    #         "PRS3T2",
-    #         "PRS4T1",
-    #         "PRS4T2",
-    #         "FRS1T1",
-    #         "FRS1T2",
-    #         "FRS2T1",
-    #         "FRS2T2",
-    #         "FRS3T1",
-    #         "FRS3T2",
-    #         "FRS4T1",
-    #         "FRS4T2",
-    #         "ARS1T1",
-    #         "ARS1T2",
-    #         "ARS2T1",
-    #         "ARS2T2",
-    #         "ARS3T1",
-    #         "ARS3T2",
-    #         "ARS4T1",
-    #         "ARS4T2",
-    #     ]
+    # treatments
+    positive_szenarios = ["1_and_4", "2_and_3"]
 
-    #     random.shuffle(state_items)
+    treatment_cycle = itertools.cycle(positive_szenarios)
 
-    #     player.participant.vars["StateItemsRandom"] = state_items
-
-    #     state_items_rest = ["PR1", "PR2", "PR3", "PR4"]
-    #     random.shuffle(state_items_rest)
-
-    #     player.participant.vars["StateItemsRestRandom"] = state_items_rest
-
-    #     # 8 items per page
-    #     player.participant.vars["StateItemsPage1"] = player.participant.vars[
-    #         "StateItemsRandom"
-    #     ][0:8]
-    #     player.participant.vars["StateItemsPage2"] = player.participant.vars[
-    #         "StateItemsRandom"
-    #     ][8:16]
-    #     player.participant.vars["StateItemsPage3"] = player.participant.vars[
-    #         "StateItemsRandom"
-    #     ][16:24]
-    #     player.participant.vars["StateItemsPage4"] = player.participant.vars[
-    #         "StateItemsRandom"
-    #     ][24:32]
-    #     player.participant.vars["StateItemsPage5"] = player.participant.vars[
-    #         "StateItemsRandom"
-    #     ][32:35]
-
-    #     player.session_variables = str(player.participant.vars)
-    pass
+    for player in subsession.get_players():
+        player.positive_szenarios = next(treatment_cycle)
 
 
 def check_if_player_failed_comprehension_check(player):
@@ -122,6 +73,9 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
+    # treatments
+    positive_szenarios = models.StringField()
+
     # failed control check url
     player_qualityfail_url = models.StringField()
 
@@ -133,7 +87,7 @@ class Player(BasePlayer):
     player_complete_url = models.StringField()
 
     feedback = models.LongStringField(
-        label="Wir sind sehr dankbar für Ihr Feedback zu unserem Experiment:",
+        label="We are very grateful for your feedback on our experiment:",
         blank=True,
     )
 
@@ -216,7 +170,7 @@ class Player(BasePlayer):
         blank=False,
         widget=widgets.RadioSelect,
     )
-    
+
     # Control Question
     CON1 = make_field_7point("Please select the second circle from the right (++).")
 
@@ -262,6 +216,7 @@ class Player(BasePlayer):
     PRS3T2 = make_field_7point("How risky do you rate the action of leader\xa0B?")
     PRS4T1 = make_field_7point("How risky do you rate the action of leader\xa0A?")
     PRS4T2 = make_field_7point("How risky do you rate the action of leader\xa0B?")
+
     FRS1T1 = make_field_7point(
         "The leader of Project A will feel responsible for the outcome."
     )
@@ -274,6 +229,7 @@ class Player(BasePlayer):
     FRS3T2 = make_field_7point("Leader\xa0B will feel responsible for the outcome.")
     FRS4T1 = make_field_7point("Leader\xa0A will feel responsible for the outcome.")
     FRS4T2 = make_field_7point("Leader\xa0B will feel responsible for the outcome.")
+
     ARS1T1 = make_field_7point("The leader of Project\xa0A acted responsibly.")
     ARS1T2 = make_field_7point("The leader of Project\xa0B acted responsibly.")
     ARS2T1 = make_field_7point("Leader\xa0A acted responsibly.")
@@ -282,6 +238,24 @@ class Player(BasePlayer):
     ARS3T2 = make_field_7point("Leader\xa0B acted responsibly.")
     ARS4T1 = make_field_7point("Leader\xa0A acted responsibly.")
     ARS4T2 = make_field_7point("Leader\xa0B acted responsibly.")
+
+    ETHS1T1 = make_field_7point("The leader of Project\xa0A acted ethically.")
+    ETHS1T2 = make_field_7point("The leader of Project\xa0B acted ethically.")
+    ETHS2T1 = make_field_7point("Leader\xa0A acted ethically.")
+    ETHS2T2 = make_field_7point("Leader\xa0B acted ethically.")
+    ETHS3T1 = make_field_7point("Leader\xa0A acted ethically.")
+    ETHS3T2 = make_field_7point("Leader\xa0B acted ethically.")
+    ETHS4T1 = make_field_7point("Leader\xa0A acted ethically.")
+    ETHS4T2 = make_field_7point("Leader\xa0B acted ethically.")
+
+    PROS1T1 = make_field_7point("The leader of Project\xa0A acted professionally.")
+    PROS1T2 = make_field_7point("The leader of Project\xa0B acted professionally.")
+    PROS2T1 = make_field_7point("Leader\xa0A acted professionally.")
+    PROS2T2 = make_field_7point("Leader\xa0B acted professionally.")
+    PROS3T1 = make_field_7point("Leader\xa0A acted professionally.")
+    PROS3T2 = make_field_7point("Leader\xa0B acted professionally.")
+    PROS4T1 = make_field_7point("Leader\xa0A acted professionally.")
+    PROS4T2 = make_field_7point("Leader\xa0B acted professionally.")
 
 
 # PAGES
@@ -449,8 +423,12 @@ class SzenarioOneOutcome(Page):
         fields = [
             "FRS1T1",
             "ARS1T1",
+            "ETHS1T1",
+            "PROS1T1",
             "FRS1T2",
             "ARS1T2",
+            "ETHS1T2",
+            "PROS1T2",
         ]
         return fields
 
@@ -474,8 +452,12 @@ class SzenarioTwoOutcome(Page):
         fields = [
             "FRS2T1",
             "ARS2T1",
+            "ETHS2T1",
+            "PROS2T1",
             "FRS2T2",
             "ARS2T2",
+            "ETHS2T2",
+            "PROS2T2",
         ]
         return fields
 
@@ -499,9 +481,13 @@ class SzenarioThreeOutcome(Page):
         fields = [
             "FRS3T1",
             "ARS3T1",
+            "ETHS3T1",
+            "PROS3T1",
             "FRS3T2",
             "CON1",
             "ARS3T2",
+            "ETHS3T2",
+            "PROS3T2",
         ]
         return fields
 
@@ -529,8 +515,12 @@ class SzenarioFourOutcome(Page):
         fields = [
             "FRS4T1",
             "ARS4T1",
+            "ETHS4T1",
+            "PROS4T1",
             "FRS4T2",
             "ARS4T2",
+            "ETHS4T2",
+            "PROS4T2",
         ]
         return fields
 
