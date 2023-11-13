@@ -25,36 +25,41 @@ Experiment
         <thead>
             <tr>
                 <th scope="col"></th>
+                <th scope="col">People Analytics Usage</th>
                 <th scope="col">Decision</th>
                 <th scope="col">Outcome</th>
             </tr>
         </thead>
         <tbody>
-            {% if player.positive_szenarios == '2_and_3' %}
             <tr>
                 <th scope="row">Leader&nbsp;A</th>
+                {% if player.treatment_pa == '2_and_3' %}
+                <td>Yes</td>
+                {% else%}
+                <td>No</td>
+                {% endif%}
                 <td>Chose to hold onto
                     the original decision</td>
+                {% if player.positive_szenarios == '2_and_3' %}
                 <td style="color: green;"><b>Positive</b></td>
+                {% else%}
+                <td style="color: red;"><b>Negative</b></td>
+                {% endif%}
             </tr>
             <tr>
                 <th scope="row">Leader&nbsp;B</th>
+                {% if player.treatment_pa == '2_and_3' %}
+                <td>Yes</td>
+                {% else%}
+                <td>No</td>
+                {% endif%}
                 <td>Changed their mind and chose the other option</td>
+                {% if player.positive_szenarios == '2_and_3' %}
                 <td style="color: green;"><b>Positive</b></td>
-            </tr>
-            {% else %}
-            <tr>
-                <th scope="row">Leader&nbsp;A</th>
-                <td>Chose to hold onto
-                    the original decision</td>
+                {% else%}
                 <td style="color: red;"><b>Negative</b></td>
+                {% endif%}
             </tr>
-            <tr>
-                <th scope="row">Leader&nbsp;B</th>
-                <td>Changed their mind and chose the other option</td>
-                <td style="color: red;"><b>Negative</b></td>
-            </tr>
-            {% endif %}
         </tbody>
     </table>
 </div><br><br><br>

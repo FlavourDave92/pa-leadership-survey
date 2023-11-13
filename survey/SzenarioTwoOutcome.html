@@ -25,38 +25,41 @@ Experiment
         <thead>
             <tr>
                 <th scope="col"></th>
+                <th scope="col">People Analytics Usage</th>
                 <th scope="col">Decision</th>
                 <th scope="col">Outcome</th>
             </tr>
         </thead>
         <tbody>
-            {% if player.positive_szenarios == '2_and_3' %}
             <tr>
                 <th scope="row">Leader&nbsp;A</th>
+                {% if player.treatment_pa == '2_and_3' %}
+                <td>Yes</td>
+                {% else%}
+                <td>No</td>
+                {% endif%}
                 <td>Chose to follow the advice of his leader group</td>
+                {% if player.positive_szenarios == '2_and_3' %}
                 <td style="color: green;"><b>Positive</b></td>
+                {% else%}
+                <td style="color: red;"><b>Negative</b></td>
+                {% endif%}
             </tr>
             <tr>
                 <th scope="row">Leader&nbsp;B</th>
+                {% if player.treatment_pa == '2_and_3' %}
+                <td>Yes</td>
+                {% else%}
+                <td>No</td>
+                {% endif%}
                 <td>Chose not to follow the advice and to find
-                    their own solution based on consulting their people analytics system (algorithmic decision-support
-                    system)</td>
+                    their own solution</td>
+                {% if player.positive_szenarios == '2_and_3' %}
                 <td style="color: green;"><b>Positive</b></td>
-            </tr>
-            {% else %}
-            <tr>
-                <th scope="row">Leader&nbsp;A</th>
-                <td>Chose to follow the advice of his leader group</td>
+                {% else%}
                 <td style="color: red;"><b>Negative</b></td>
+                {% endif%}
             </tr>
-            <tr>
-                <th scope="row">Leader&nbsp;B</th>
-                <td>Chose not to follow the advice and to find
-                    their own solution based on consulting their people analytics system (algorithmic decision-support
-                    system)</td>
-                <td style="color: red;"><b>Negative</b></td>
-            </tr>
-            {% endif %}
         </tbody>
     </table>
 </div><br><br><br>

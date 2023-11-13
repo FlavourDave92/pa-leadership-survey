@@ -26,35 +26,40 @@ Experiment
         <thead>
             <tr>
                 <th scope="col"></th>
+                <th scope="col">People Analytics Usage</th>
                 <th scope="col">Decision</th>
                 <th scope="col">Outcome</th>
             </tr>
         </thead>
         <tbody>
-            {% if player.positive_szenarios == '1_and_4' %}
             <tr>
                 <th scope="row">Project&nbsp;A</th>
+                {% if player.treatment_pa == '1_and_4' %}
+                <td>Yes</td>
+                {% else%}
+                <td>No</td>
+                {% endif%}
                 <td>Leader chose a familiar solution that they have used before</td>
+                {% if player.positive_szenarios == '1_and_4' %}
                 <td style="color: green;"><b>Positive</b></td>
+                {% else%}
+                <td style="color: red;"><b>Negative</b></td>
+                {% endif%}
             </tr>
             <tr>
                 <th scope="row">Project&nbsp;B</th>
+                {% if player.treatment_pa == '1_and_4' %}
+                <td>Yes</td>
+                {% else%}
+                <td>No</td>
+                {% endif%}
                 <td>Leader chose a new solution.</td>
+                {% if player.positive_szenarios == '1_and_4' %}
                 <td style="color: green;"><b>Positive</b></td>
-            </tr>
-            {% else %}
-            <tr>
-                <th scope="row">Project&nbsp;A</th>
-                <td>Leader chose a familiar solution that they have used before</td>
+                {% else%}
                 <td style="color: red;"><b>Negative</b></td>
+                {% endif%}
             </tr>
-            <tr>
-                <th scope="row">Project&nbsp;B</th>
-                <td>Leader chose a new solution.</td>
-                <td style="color: red;"><b>Negative</b></td>
-            </tr>
-
-            {% endif %}
         </tbody>
     </table>
 </div><br><br><br>

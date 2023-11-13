@@ -21,8 +21,13 @@ Experiment
 </div>
 
 <div>
-    <p>Imagine two leaders, leader A and leader B, who both have access to a people analytics system at their workplace.</p><br>
-    <p>Now, they both experience a big problem. Both of them present the problem to their leader groups. The problem is
+    {% if player.treatment_pa == '2_and_3' %}
+    <p>Imagine two leaders, leader A and leader B, who both <b>use a people analytics system</b> at their workplace.</p>
+    {% else %}
+    <p>Imagine two leaders, leader A and leader B. A <b>people analytics system</b> is <b>not available</b> at their workplace.</p>
+    {% endif %}
+    <br>
+    <p>They both experience a big problem. Both of them present the problem to their leader groups. The problem is
     discussed and the two groups decide upon an advice for how their leader can solve the problem.</p><br> 
     <p><b>Leader&nbsp;A</b> chooses to follow the advice of their leader group, while <b>leader&nbsp;B</b> chooses not to follow the advice and to find
     their own solution.</p><br>

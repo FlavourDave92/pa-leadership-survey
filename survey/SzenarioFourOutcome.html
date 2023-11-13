@@ -25,35 +25,43 @@ Experiment
         <thead>
             <tr>
                 <th scope="col"></th>
+                <th scope="col">People Analytics Usage</th>
                 <th scope="col">Decision</th>
                 <th scope="col">Outcome</th>
             </tr>
         </thead>
         <tbody>
-            {% if player.positive_szenarios == '1_and_4' %}
             <tr>
                 <th scope="row">Leader&nbsp;A</th>
-                <td>Awaits to see if blows over by itself</td>
+                {% if player.treatment_pa == '1_and_4' %}
+                <td>Yes</td>
+                {% else%}
+                <td>No</td>
+                {% endif%}
+                <td>Awaits to see if it blows over by itself</td>
+                {% if player.positive_szenarios == '1_and_4' %}
                 <td style="color: green;"><b>Positive</b></td>
+                {% else%}
+                <td style="color: red;"><b>Negative</b></td>
+                {% endif%}
             </tr>
             <tr>
                 <th scope="row">Leader&nbsp;B</th>
-                <td>Choose to actively solve the problem</td>
+                {% if player.treatment_pa == '1_and_4' %}
+                <td>Yes</td>
+                {% else%}
+                <td>No</td>
+                {% endif%}
+                <td>Chose to actively solve the problem</td>
+                {% if player.positive_szenarios == '1_and_4' %}
                 <td style="color: green;"><b>Positive</b></td>
-            </tr>
-            {% else %}
-            <tr>
-                <th scope="row">Leader&nbsp;A</th>
-                <td>Awaits to see if blows over by itself</td>
+                {% else%}
                 <td style="color: red;"><b>Negative</b></td>
+                {% endif%}
             </tr>
-            <tr>
-                <th scope="row">Leader&nbsp;B</th>
-                <td>Choose to actively solve the problem</td>
-                <td style="color: red;"><b>Negative</b></td>
-            </tr>
-            {% endif %}
         </tbody>
+
+
     </table>
 </div><br><br><br>
 

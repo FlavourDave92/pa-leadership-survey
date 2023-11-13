@@ -22,8 +22,17 @@ Experiment
 
 <div>
     <p>Imagine two different HR projects.</p><br>
-    <p>The leaders for both projects have access to a people analytics system at their workplace. Both projects face a problem that has different possible solutions.</p><br>
-    <p>The leader for <b>project&nbsp;A</b> chooses a familiar solution that they have used before, while the leader for <b>project&nbsp;B</b> chooses a new solution.<br>
+    {% if player.treatment_pa == '1_and_4' %}
+    <p>The leaders for both projects <b>use a people analytics system</b>.</p>
+    {% else %}
+    <p>A <b>people analytics system</b> is <b>not available</b>.</p>
+    {% endif %}
+    Both projects face a problem that has different
+    possible
+    solutions.</p>
+    <br>
+    <p>The leader for <b>project&nbsp;A</b> chooses a familiar solution that they have used before, while the leader for
+        <b>project&nbsp;B</b> chooses a new solution.<br>
 </div>
 
 <div class="dialog">

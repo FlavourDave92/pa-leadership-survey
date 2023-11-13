@@ -22,10 +22,19 @@ Experiment
 
 <div>
     <p>Leaders often make decisions.</p><br>
-    <p>Imagine a situation where two leaders, who both have access to a people analytics system at their workplace, independent
-    of each other, have to take an important decision. They both choose initially one of two possible solutions.</p><br>
-    <p>After further considerations, <b>leader&nbsp;A</b> chooses to hold onto the original decision, while <b>leader&nbsp;B</b> changes their mind and
-    chooses the other option.</p><br>
+    {% if player.treatment_pa == '2_and_3' %}
+    <p>Imagine a situation where two leaders <b>use</b> a <b>people analytics system</b> at their workplace. Independent of
+        each
+        other, they have to take an important decision. They both choose initially one of two possible solutions.</p>
+    {% else %}
+    <p>Imagine a situation where two leaders both have <b>no people analytics system</b> at their workplace. Independent of each other, they have to take an important decision. They both
+        choose initially one of two possible solutions.</p>
+    {% endif %}
+    <br>
+    <p>After further considerations, <b>leader&nbsp;A</b> chooses to hold onto the original decision, while
+        <b>leader&nbsp;B</b> changes their mind and
+        chooses the other option.
+    </p><br>
 </div>
 
 <div class="dialog">

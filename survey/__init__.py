@@ -48,7 +48,7 @@ class Constants(BaseConstants):
 
 def creating_session(subsession):
     # treatments
-    treatment_pa = ["no", "yes"]
+    treatment_pa = ["1_and_4", "2_and_3"]
     positive_szenarios = ["1_and_4", "2_and_3"]
 
     treatment_combinations = [
