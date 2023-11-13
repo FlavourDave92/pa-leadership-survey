@@ -14,23 +14,29 @@ Experiment
     appreciated.<br><br>
 
     On the following pages, you will be confronted with short scenarios that you may have already experienced in your
-    day-to-day work as a manager. We ask you to answer the following questions as intuitively and honestly as possible, even
+    day-to-day work as a manager. We ask you to answer the following questions as intuitively and honestly as possible,
+    even
     if the scenarios may seem hypothetical.<br><br>
 
-    Please answer the questions from your standpoint as a manager, taking your own work experience into consideration.<br><br>
+    Please answer the questions from your standpoint as a manager, taking your own work experience into
+    consideration.<br><br>
 
-    The following scenarios include so-called <b>people analytics systems</b>. These are algorithm-driven systems that continuously
-    collect and analyse data on productivity or the behaviour of employees in the workplace. The systems’ analyses and
-    recommendations are made available to managers.
+    {% if player.pa_treatment == 'yes' %}
+    The following scenarios include so-called <b>people analytics systems</b>. These are algorithm-driven systems which
+    constantly
+    collect data on employee behaviour at the workplace: For instance, the number of emails sent and phone calls made,
+    the
+    number and length of (online) meetings and whether emails are still being sent and phone calls made after working
+    hours.
+    Employees can be surveyed by the people analytics systems at regular intervals about their satisfaction at
+    work.<br><br>
+
+    The people analytics system processes this data to provide managers with aggregated reports to support
+    decision-making.
+
+    {% endif %}
 
     Once again, thank you very much for your support!<br><br>
-
-
-    <p><input type="checkbox" onchange="document.getElementById('nextButton').disabled = !this.checked;" /> I have read
-        and understood the conditions described above. I agree with the conditions mentioned and would like to
-        participate in the survey.
-    </p>
-
 
     <button disabled class="otree-btn-next btn btn-primary next-button otree-next-button" id="nextButton">Let's go
     </button>

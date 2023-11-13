@@ -48,12 +48,19 @@ class Constants(BaseConstants):
 
 def creating_session(subsession):
     # treatments
+    treatment_pa = ["no", "yes"]
     positive_szenarios = ["1_and_4", "2_and_3"]
 
-    treatment_cycle = itertools.cycle(positive_szenarios)
+    treatment_combinations = [
+        (pa, positive_szenario)
+        for pa in treatment_pa
+        for positive_szenario in positive_szenarios
+    ]
+
+    treatment_cycle = itertools.cycle(treatment_combinations)
 
     for player in subsession.get_players():
-        player.positive_szenarios = next(treatment_cycle)
+        player.treatment_pa, player.positive_szenarios = next(treatment_cycle)
 
 
 def check_if_player_failed_comprehension_check(player):
@@ -75,6 +82,7 @@ class Group(BaseGroup):
 class Player(BasePlayer):
     # treatments
     positive_szenarios = models.StringField()
+    treatment_pa = models.StringField()
 
     # failed control check url
     player_qualityfail_url = models.StringField()
