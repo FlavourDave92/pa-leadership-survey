@@ -1,0 +1,1001 @@
+﻿participant.id_in_session,participant.code,participant.label,participant._is_bot,participant._index_in_pages,participant._max_page_index,participant._current_app_name,participant._current_page_name,participant.time_started_utc,participant.visited,participant.mturk_worker_id,participant.mturk_assignment_id,participant.payoff,session.code,session.label,session.mturk_HITId,session.mturk_HITGroupId,session.comment,session.is_demo,session.config.name,session.config.participation_fee,session.config.real_world_currency_per_point,session.params,survey.1.player.id_in_group,survey.1.player.role,survey.1.player.payoff,survey.1.player.positive_szenarios,survey.1.player.treatment_pa,survey.1.player.player_qualityfail_url,survey.1.player.session_variables,survey.1.player.failed_quality_check,survey.1.player.player_complete_url,survey.1.player.feedback,survey.1.player.home_office,survey.1.player.home_office_need,survey.1.player.risk_propensity,survey.1.player.algo_aversion,survey.1.player.teamlead,survey.1.player.hr_job,survey.1.player.pa_heard,survey.1.player.pa_knowledge,survey.1.player.pa_experience,survey.1.player.CON1,survey.1.player.CMB1,survey.1.player.CMB2,survey.1.player.PRS1T1,survey.1.player.PRS1T2,survey.1.player.PRS2T1,survey.1.player.PRS2T2,survey.1.player.PRS3T1,survey.1.player.PRS3T2,survey.1.player.PRS4T1,survey.1.player.PRS4T2,survey.1.player.FRS1T1,survey.1.player.FRS1T2,survey.1.player.FRS2T1,survey.1.player.FRS2T2,survey.1.player.FRS3T1,survey.1.player.FRS3T2,survey.1.player.FRS4T1,survey.1.player.FRS4T2,survey.1.player.ARS1T1,survey.1.player.ARS1T2,survey.1.player.ARS2T1,survey.1.player.ARS2T2,survey.1.player.ARS3T1,survey.1.player.ARS3T2,survey.1.player.ARS4T1,survey.1.player.ARS4T2,survey.1.player.ETHS1T1,survey.1.player.ETHS1T2,survey.1.player.ETHS2T1,survey.1.player.ETHS2T2,survey.1.player.ETHS3T1,survey.1.player.ETHS3T2,survey.1.player.ETHS4T1,survey.1.player.ETHS4T2,survey.1.player.PROS1T1,survey.1.player.PROS1T2,survey.1.player.PROS2T1,survey.1.player.PROS2T2,survey.1.player.PROS3T1,survey.1.player.PROS3T2,survey.1.player.PROS4T1,survey.1.player.PROS4T2,survey.1.group.id_in_subsession,survey.1.subsession.round_number
+1,7pa3mbhd,5ba16cc388ec69000112a59b,0,13,13,survey,End,2023-11-14 16:26:48.196461,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,1,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,2,4,1,1,1,1,1,6,7,5,1,6,2,6,3,3,5,4,6,6,7,7,7,7,7,7,7,6,7,3,5,3,3,5,7,6,7,3,5,3,3,5,7,6,7,3,5,3,3,5,1,1
+2,9p47hgbi,63f6ac6d4ce41fa2a87ea79b,0,13,13,survey,End,2023-11-14 16:55:07.824518,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,2,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,1,10,7,1,0,0,0,1,6,7,7,1,6,1,6,1,6,2,6,3,6,5,6,4,6,5,5,5,5,7,7,6,6,6,3,5,4,7,7,6,6,6,3,5,4,7,7,6,6,6,3,1,1
+3,ug1duwxd,6443ebb84fc33e703937a6f9,0,13,13,survey,End,2023-11-14 16:55:12.276717,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,3,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,3,9,5,1,1,1,1,1,6,6,5,1,7,4,6,1,7,7,1,7,7,1,7,2,7,7,7,6,4,4,6,6,4,1,7,6,4,4,6,6,4,1,7,6,6,5,6,6,4,1,7,1,1
+4,z64rjwb9,6313b174ea51a256bfe6099f,0,2,13,survey,SzenarioOne,2023-11-14 16:55:27.627254,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,4,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+5,a1k1r832,63eec085b1d2e79ac4fbbd78,0,13,13,survey,End,2023-11-14 16:57:27.872096,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,5,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,9,6,1,1,1,1,1,6,6,5,5,4,2,7,2,7,4,5,7,7,2,7,2,6,7,6,7,7,2,2,2,2,6,6,7,7,2,3,2,2,6,6,7,7,2,3,2,2,6,6,1,1
+6,rpzr5byq,60885dc6571926117732b41e,0,13,13,survey,End,2023-11-14 16:59:12.439686,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,6,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,6,7,1,0,1,1,1,6,7,4,3,4,1,7,4,4,6,1,4,7,3,7,5,7,6,4,5,4,7,4,5,5,3,7,5,4,7,3,7,5,3,7,5,4,7,3,6,5,3,7,1,1
+7,n0n06sbi,5f9b6cc0e01ad13902b38f60,0,13,13,survey,End,2023-11-14 17:01:09.053763,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,7,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,6,5,1,0,1,1,0,6,6,5,4,5,2,5,3,5,4,5,2,5,2,5,2,5,5,4,5,5,5,5,4,5,5,4,5,5,5,5,4,5,5,4,5,5,5,5,4,5,5,4,1,1
+8,k6r3w18w,62348c41368404b2ade8312b,0,13,13,survey,End,2023-11-14 17:06:37.245487,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,8,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,6,5,1,0,1,0,0,6,7,7,3,5,3,6,4,5,6,5,5,6,5,7,5,6,6,6,5,6,5,6,5,6,5,5,5,6,5,6,5,6,5,5,5,6,5,7,5,6,5,5,1,1
+9,fj7f2kbc,632dd45fb49858b31338c11c,0,10,13,survey,QualityFail,2023-11-14 17:08:41.371377,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,9,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,5,,,4,3,3,6,2,6,2,7,6,7,6,2,3,6,2,7,7,4,5,1,3,7,2,6,6,4,7,4,2,2,3,7,6,5,7,3,5,5,3,7,1,1
+10,aiyg7slj,5ba292385301b80001c71ba2,0,13,13,survey,End,2023-11-14 17:09:03.823375,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,10,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,Fun survey,1,0,8,5,1,0,1,1,1,6,5,5,2,6,6,3,2,6,2,6,7,7,7,7,7,7,6,2,6,4,6,6,6,6,4,3,7,4,6,6,6,5,5,2,6,4,7,6,6,5,4,2,1,1
+11,4pl2pnq2,62c84ca82b03c9aedbca4a2a,0,13,13,survey,End,2023-11-14 17:11:38.183432,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,11,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,0,4,5,1,0,0,0,0,6,1,5,1,7,1,7,4,4,1,7,7,7,4,3,7,6,7,1,7,6,7,1,7,7,7,1,7,7,7,1,7,7,7,1,7,7,7,1,7,7,7,1,1,1
+12,05wd4boi,5ff591cba89e1b000bfb9852,0,13,13,survey,End,2023-11-14 17:13:10.422787,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,12,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,5,4,1,0,1,1,0,6,5,4,4,4,4,3,4,3,4,5,4,5,4,4,4,4,4,4,4,4,5,4,3,4,3,5,4,4,4,4,4,4,4,5,1,4,4,5,4,4,4,4,1,1
+13,dm4a2l76,60cbabd69ddfb4d7243a1e38,0,13,13,survey,End,2023-11-14 17:13:18.448655,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,13,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,6,4,1,0,0,0,0,6,6,6,1,4,1,5,4,4,7,2,6,6,3,6,6,6,6,7,6,6,6,5,5,5,3,6,6,6,6,6,6,6,4,6,6,6,6,6,6,6,4,6,1,1
+14,x03jdsh4,6162d7f2f4d650e7eec2e5b7,0,2,13,survey,SzenarioOne,2023-11-14 17:15:25.766749,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,14,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+15,6dh7v3q2,6543b16f3b54508e4cf5c9c9,0,13,13,survey,End,2023-11-14 17:16:33.219664,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,15,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,1,5,3,1,0,0,0,0,6,5,4,2,5,1,7,2,6,2,6,3,6,1,7,6,6,7,1,5,3,7,1,4,4,6,1,5,4,6,1,4,4,6,1,5,5,6,1,4,4,6,1,1,1
+16,oj1c34rw,654261c3d94cab4a2b4cab84,0,10,13,survey,QualityFail,2023-11-14 17:17:46.199249,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,16,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,7,,,1,7,1,7,1,7,1,7,7,1,7,7,7,7,1,1,7,1,7,7,7,7,1,1,7,1,7,7,7,7,1,1,7,1,7,7,7,7,1,1,1,1
+17,cnbrsopd,6533d8e82d29dfe51b1bea6a,0,13,13,survey,End,2023-11-14 17:18:11.071525,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,17,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,5,7,1,0,1,0,0,6,6,4,1,7,1,7,1,6,1,7,2,7,1,7,6,6,7,7,6,1,7,1,5,4,5,6,6,5,5,5,5,4,5,5,7,2,7,2,5,3,5,6,1,1
+18,k4hqyptj,5e0565b6deea2bf9ae411b13,0,10,13,survey,QualityFail,2023-11-14 17:18:28.312592,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,18,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,7,,,1,6,1,6,1,1,1,7,6,6,6,6,7,7,7,7,6,6,6,5,7,7,7,1,6,6,6,6,6,7,7,1,6,6,6,6,7,7,7,1,1,1
+19,vq068tas,6413577c3565b8c76d846034,0,13,13,survey,End,2023-11-14 17:18:43.995540,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,19,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,3,7,1,0,0,0,0,6,7,4,2,5,1,6,2,5,1,6,6,4,2,5,5,6,4,5,6,3,6,3,6,4,3,6,6,5,6,3,6,4,3,6,6,5,6,3,6,4,3,6,1,1
+20,epsqtcg1,5d2f054b1dde3600015e43d9,0,13,13,survey,End,2023-11-14 17:18:47.301954,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,20,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,Thank You.,0,1,6,5,1,0,0,0,0,6,6,4,2,6,3,5,3,5,5,6,4,5,3,7,6,6,5,6,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,5,5,6,5,6,5,1,1
+21,gjpmg6y0,5a54f0daac562400015388da,0,13,13,survey,End,2023-11-14 17:18:52.533167,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,21,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,1,3,5,1,0,0,0,0,6,6,4,1,6,1,7,2,6,2,5,4,7,4,7,7,7,7,7,6,5,7,1,7,7,7,7,6,5,7,1,7,7,7,7,6,5,7,1,7,7,7,7,1,1
+22,s4xyndva,6402682f1a17d6c87f4f3a89,0,13,13,survey,End,2023-11-14 17:18:59.699299,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,22,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,3,7,5,1,1,1,0,0,6,6,6,2,6,1,6,2,6,6,4,3,6,5,7,5,7,5,7,6,5,7,2,6,4,6,2,4,5,7,2,6,4,6,2,5,4,7,1,7,4,7,1,1,1
+23,5xwkuqzk,5a94c0b7b5e2110001c6891e,0,13,13,survey,End,2023-11-14 17:19:12.233275,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,23,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,4,4,1,0,0,0,0,6,7,5,2,5,2,5,3,5,3,6,5,6,4,5,5,6,5,5,6,5,5,3,5,3,5,3,6,5,5,3,5,4,5,4,6,5,5,4,5,4,5,3,1,1
+24,2t9ebfxv,627c31addc6adc20c3c7ee88,0,13,13,survey,End,2023-11-14 17:19:28.676847,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,24,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,1,5,5,1,0,0,1,1,6,6,2,3,6,5,5,5,5,6,6,5,5,5,5,6,6,3,3,5,5,5,5,6,6,3,3,5,5,5,5,6,6,3,3,5,5,5,5,6,6,3,3,1,1
+25,6oac9wdj,6148ea50509c9ce6c1f023c0,0,13,13,survey,End,2023-11-14 17:19:44.414013,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,25,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,3,6,6,1,1,1,1,0,6,7,4,2,5,1,7,2,2,7,2,6,5,2,7,6,5,6,7,6,5,5,4,6,6,4,7,6,5,5,4,6,6,4,7,6,6,5,5,6,6,4,7,1,1
+26,zi0l793u,6042794fe3c49714bee3e9cf,0,13,13,survey,End,2023-11-14 17:19:45.861625,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,26,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,Thanks,2,1,6,5,1,0,0,0,0,6,7,7,2,5,2,5,5,5,5,6,6,6,6,6,6,7,6,7,5,5,6,6,6,6,6,3,5,5,6,6,6,6,6,4,5,5,6,6,6,6,6,3,1,1
+27,85sdkyrh,5b50881a59119400018abaf3,0,13,13,survey,End,2023-11-14 17:19:49.564482,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,27,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,no comments,1,1,2,5,1,0,1,1,1,6,7,7,2,5,1,7,2,5,7,5,7,7,5,7,7,7,3,7,7,6,7,3,7,6,2,7,7,7,7,5,7,7,4,7,7,7,7,4,7,7,3,7,1,1
+28,nmdvzn2d,5ba4057af0741400010637b9,0,13,13,survey,End,2023-11-14 17:19:57.135073,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,28,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,4,4,1,0,0,0,1,6,6,6,1,5,1,6,1,7,1,7,7,7,7,5,7,5,7,4,7,5,7,2,7,1,6,1,7,7,7,2,7,1,6,3,7,5,7,2,7,1,6,2,1,1
+29,9fsmph5o,5f8bad1242efeb2f49156f51,0,13,13,survey,End,2023-11-14 17:20:39.549622,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,29,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,That was a fascinating and thought-provoking study.,1,0,6,6,1,0,1,1,1,6,6,7,2,5,2,6,2,2,2,7,5,7,3,6,5,5,6,2,7,6,7,3,7,7,7,3,7,7,7,6,7,7,7,4,7,7,7,5,7,7,7,4,1,1
+30,566m1lbd,63d7edbef6596097994e730e,0,3,13,survey,SzenarioOneOutcome,2023-11-14 17:20:47.850775,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,30,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,,,,,,,,,,,,,,,,4,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+31,mrruhl0n,6307f3c967020d1202332b77,0,13,13,survey,End,2023-11-14 17:21:10.738308,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,31,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,1,2,4,1,0,0,0,0,6,2,4,2,6,5,6,5,6,7,7,7,7,2,7,5,7,7,7,7,7,6,4,4,5,7,7,5,6,6,3,4,4,7,7,7,7,6,5,5,5,7,7,1,1
+32,7rg28csa,65218b754dddc1ca107dd9c2,0,13,13,survey,End,2023-11-14 17:21:21.339657,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,32,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,7,4,1,1,1,1,0,6,3,3,2,6,2,2,5,3,5,5,3,6,3,6,5,3,5,5,5,5,6,3,4,5,3,5,6,5,6,4,4,5,4,4,6,5,6,4,4,5,4,4,1,1
+33,mtlriakc,652d461fa15fc7cb72f28e82,0,13,13,survey,End,2023-11-14 17:21:25.399954,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,33,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,1,10,5,0,0,1,1,0,6,6,5,1,7,1,7,4,4,6,7,7,7,3,7,4,6,7,6,7,7,7,5,7,6,7,6,7,7,7,7,7,7,7,7,7,7,7,6,7,7,7,6,1,1
+34,z3sz0218,59949236c825cf0001d7dcdc,0,13,13,survey,End,2023-11-14 17:21:37.178512,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,34,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,Fun and interesting ,1,1,5,6,1,0,1,1,1,6,6,5,3,5,4,5,5,5,5,7,6,6,4,6,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,4,6,6,6,6,6,6,6,2,6,1,1
+35,qw38i8xo,5c8fa199208071000183d490,0,13,13,survey,End,2023-11-14 17:21:49.607084,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,35,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,1,1,5,1,0,1,1,0,6,6,4,1,4,1,5,4,4,3,5,6,6,5,7,5,5,6,6,6,6,5,3,5,5,5,5,6,6,5,3,5,5,5,5,6,6,5,3,5,5,5,5,1,1
+36,6a57rfd7,5e0b388b15ef4037cebdecc9,0,13,13,survey,End,2023-11-14 17:22:26.405603,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,36,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,3,6,1,0,1,1,0,6,5,5,2,6,1,7,5,3,2,6,7,7,7,7,7,7,7,7,7,7,7,1,6,5,7,1,7,7,7,1,7,5,7,1,7,7,7,1,7,5,7,1,1,1
+37,lv5bners,63ed04d2ce3b27bda2fbbb9c,0,9,13,survey,SzenarioFourOutcome,2023-11-14 17:22:57.873218,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,37,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,,,,,,,,,,,,6,,,2,6,3,6,3,5,2,7,4,6,4,6,4,6,,,6,4,6,4,6,4,,,6,4,6,4,6,4,,,6,4,6,4,6,4,,,1,1
+38,6xj9qnw9,5f988a053b4bf5186a5d6693,0,13,13,survey,End,2023-11-14 17:23:03.871951,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,38,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,1,4,6,1,0,0,0,0,6,7,7,3,5,3,6,4,4,3,7,6,6,3,6,6,6,3,6,5,5,6,6,6,6,7,4,5,5,6,6,6,6,7,4,5,5,6,6,6,6,7,4,1,1
+39,22f6qdfs,60fe5defab667c1156a91e48,0,13,13,survey,End,2023-11-14 17:23:37.281791,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,39,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,none,1,3,7,4,1,1,1,0,0,6,6,5,6,7,6,7,5,3,5,3,5,5,3,3,5,5,6,5,6,6,2,2,7,7,5,3,7,7,4,3,5,6,3,7,6,6,2,5,6,5,6,6,1,1
+40,b3qdl2o3,5c110067753adc00015913e3,0,13,13,survey,End,2023-11-14 17:23:36.711261,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,40,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,0,7,1,1,0,0,0,6,4,4,1,7,1,7,1,7,4,4,7,5,7,7,7,7,7,6,7,2,7,4,7,5,4,4,7,4,7,4,7,5,4,4,7,4,7,4,7,6,4,4,1,1
+41,u2kujn0g,651ad403421d2fff5bb7df09,0,13,13,survey,End,2023-11-14 17:23:50.117425,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,41,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,5,6,1,0,1,1,0,6,5,4,5,5,3,5,5,5,6,4,6,6,3,7,6,6,6,6,7,7,6,5,6,6,3,6,7,7,6,4,4,4,4,6,6,6,6,5,4,4,4,6,1,1
+42,n2tz3s0p,6485009845ccd180b889dcb9,0,10,13,survey,QualityFail,2023-11-14 17:24:27.068444,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,42,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,7,,,1,6,2,5,4,4,5,5,6,6,7,7,7,7,7,7,6,6,7,6,7,7,7,7,6,6,7,6,7,7,7,7,6,6,7,6,7,7,7,7,1,1
+43,knbr6m82,65464b7e526b25cfc1dfeeb2,0,13,13,survey,End,2023-11-14 17:24:43.874888,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,43,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,0,6,4,1,0,1,1,1,6,5,3,2,6,2,5,2,6,2,5,5,5,6,6,6,5,6,5,5,4,5,2,4,5,4,6,5,4,4,4,5,6,5,5,5,6,5,6,6,6,4,6,1,1
+44,jd69gkm3,634027f949aab36bf66b50a3,0,13,13,survey,End,2023-11-14 17:25:02.403006,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,44,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,5,6,1,0,0,0,0,6,5,7,2,5,1,7,6,6,1,7,4,7,1,7,7,7,5,7,6,4,6,2,4,4,1,7,7,7,7,7,4,4,4,7,7,5,7,2,4,4,1,7,1,1
+45,nnklkekn,5df11e6cdc85350234932daa,0,13,13,survey,End,2023-11-14 17:25:08.754297,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,45,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,"Overall, the study was very engaging and interesting.",0,1,2,4,1,0,0,0,0,6,6,5,1,5,4,6,2,2,7,4,7,7,5,7,7,7,7,7,6,6,6,3,6,6,4,6,6,6,6,6,6,6,6,6,7,7,7,3,7,7,6,7,1,1
+46,003sbr9v,63d4857d5c9e6f18b03027b3,0,13,13,survey,End,2023-11-14 17:25:14.670650,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,46,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,"Thank you for the opportunity to participate, it is appreciated.  ",0,1,7,5,1,0,1,1,0,6,6,4,4,5,3,6,4,4,4,6,7,7,6,6,7,7,7,7,4,4,5,3,4,4,3,5,4,4,5,3,4,4,3,5,4,4,5,3,4,4,3,5,1,1
+47,6i1c5ky0,5f636ecb4ea0bf03d640028f,0,10,13,survey,QualityFail,2023-11-14 17:25:14.878953,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,47,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,7,,,1,7,1,7,3,4,7,1,7,3,1,7,7,7,7,7,7,3,7,1,7,7,1,7,7,3,7,1,7,7,1,7,7,3,7,1,7,7,1,7,1,1
+48,2cwn5ov2,58509fbda6946500016117ed,0,13,13,survey,End,2023-11-14 17:25:17.219939,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,48,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,0,5,5,1,0,1,1,1,6,6,4,2,5,1,6,4,4,1,7,4,5,4,6,5,6,5,6,5,4,5,4,6,5,7,2,5,4,5,4,6,5,7,2,5,4,5,4,6,6,7,1,1,1
+49,bauamni1,63d7fb6ee49281f6c41d6630,0,13,13,survey,End,2023-11-14 17:25:36.784009,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,49,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,9,3,1,0,1,1,0,6,5,5,1,5,1,1,1,5,5,3,5,7,4,5,6,5,2,6,5,6,6,6,6,5,3,5,4,7,6,6,7,4,4,5,6,7,6,6,6,4,4,5,1,1
+50,68gchdjn,62961bfdbe5f238d3225db72,0,13,13,survey,End,2023-11-14 17:25:39.275422,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,50,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,0,4,7,1,1,0,0,1,6,5,3,5,6,1,6,6,5,4,3,6,5,7,7,6,7,5,5,7,6,7,4,6,6,4,6,6,6,7,3,7,7,4,6,6,6,7,2,7,7,4,6,1,1
+51,mr6ar6e0,5dee44454d7bea4e3f4b44a6,0,13,13,survey,End,2023-11-14 17:25:57.841048,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,51,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,6,4,1,0,1,1,1,6,5,5,4,4,4,6,3,5,4,4,5,5,4,3,4,4,4,4,5,5,4,3,3,4,4,4,5,5,4,3,3,4,4,4,5,5,4,3,3,4,4,4,1,1
+52,g7u0euou,5ea78fb30541cb0009e4d924,0,13,13,survey,End,2023-11-14 17:25:59.434365,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,52,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,4,5,1,1,1,1,0,6,7,7,1,6,1,6,2,6,2,7,2,7,5,7,7,7,7,6,7,6,7,3,7,6,7,2,7,6,7,4,7,7,7,5,7,6,7,2,7,6,7,2,1,1
+53,qwkf6bud,5f504fd2cc049d1cbf29c40d,0,13,13,survey,End,2023-11-14 17:26:11.796265,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,53,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,1,5,4,1,0,0,0,0,6,7,7,1,7,1,7,4,4,5,3,7,7,7,7,7,7,4,7,7,5,7,1,7,7,5,7,7,5,7,1,7,7,5,7,7,5,7,1,7,7,5,7,1,1
+54,00kcuu36,6077cb38de8f5c783d413450,0,13,13,survey,End,2023-11-14 17:26:24.933348,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,54,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,4,5,1,0,1,1,0,6,7,2,2,5,4,5,4,4,2,5,3,6,4,6,5,6,6,3,6,4,5,4,5,5,2,6,6,5,6,4,6,5,3,6,6,5,6,5,5,5,2,6,1,1
+55,cgitlsqa,6234d77291179c1badffad36,0,13,13,survey,End,2023-11-14 17:26:30.306012,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,55,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,0,10,7,0,0,1,0,0,6,7,7,6,7,7,6,7,6,7,6,7,7,1,1,1,4,7,6,6,6,2,1,2,1,6,7,6,7,1,2,3,2,7,7,7,6,2,2,4,3,6,6,1,1
+56,yjwqv28o,62957302ad8c1756b553a298,0,13,13,survey,End,2023-11-14 17:26:39.743061,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,56,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,8,5,1,0,1,1,0,6,7,4,1,5,3,6,3,3,7,5,1,5,7,7,7,7,1,5,4,5,6,6,6,6,3,5,5,5,6,6,6,6,4,5,5,5,6,6,6,6,3,5,1,1
+57,19yrnf9d,653fe26ede361272b8f82397,0,13,13,survey,End,2023-11-14 17:26:39.786210,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,57,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,1,2,6,1,0,0,0,0,6,7,5,2,5,1,5,2,5,3,5,7,7,5,7,7,7,7,3,7,6,7,5,7,7,7,3,7,6,7,5,7,7,7,5,7,7,7,3,7,7,7,3,1,1
+58,7n5xpcjc,63bf8a649931574320e98357,0,13,13,survey,End,2023-11-14 17:26:56.724766,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,58,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,0,7,5,1,0,0,0,1,6,7,5,2,6,3,6,2,6,5,2,6,6,5,7,5,6,6,7,6,4,6,4,6,3,6,5,6,5,6,5,6,4,6,5,6,5,6,5,6,4,6,5,1,1
+59,ctse3zrs,5f712c16875f0375275c57d5,0,13,13,survey,End,2023-11-14 17:27:00.202480,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,59,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,4,4,1,0,1,1,1,6,6,4,3,5,2,7,4,4,4,5,5,6,5,7,5,5,3,5,4,4,4,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,4,4,4,1,1
+60,5u7incmx,5ded40791be52f3f9a03947c,0,13,13,survey,End,2023-11-14 17:27:23.768615,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,60,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,1,7,7,1,0,0,0,0,6,6,4,2,5,2,7,4,4,6,5,6,7,5,7,7,7,7,7,6,5,7,5,7,7,3,7,6,6,7,7,7,7,5,7,6,6,7,7,7,7,4,7,1,1
+61,bfh688c2,638ce9c3931acfc969058613,0,13,13,survey,End,2023-11-14 17:27:35.415580,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,61,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,2,5,1,0,1,1,1,6,7,5,2,6,3,6,4,4,2,2,4,6,3,7,4,7,6,6,6,4,3,3,4,5,6,6,6,4,3,3,4,5,6,6,6,4,3,3,4,5,6,6,1,1
+62,e4a5i7ji,62a89318448a8592fc88ee03,0,13,13,survey,End,2023-11-14 17:27:51.619656,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,62,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,6,7,1,0,0,0,0,6,7,7,2,6,2,7,2,7,1,7,4,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,1,1
+63,06pz00ah,5e39d872793a082024d9cf18,0,13,13,survey,End,2023-11-14 17:27:53.376243,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,63,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,3,5,1,1,1,1,0,6,5,6,1,5,1,3,1,3,1,7,7,7,7,7,7,7,7,7,7,7,7,4,7,4,7,6,7,7,7,4,7,4,7,6,7,6,7,3,7,5,7,6,1,1
+64,r54bagmi,642f5bc14c648f1b66b98b51,0,13,13,survey,End,2023-11-14 17:28:10.394298,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,64,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,8,4,1,1,0,0,0,6,6,3,5,7,6,7,5,7,5,6,7,7,7,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,1
+65,886hsag3,5eb81d360943fe74d6aba62b,0,13,13,survey,End,2023-11-14 17:28:16.829621,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,65,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,3,4,1,1,1,1,1,6,4,3,3,5,3,6,4,4,7,5,5,6,4,7,6,7,7,5,5,5,5,3,4,4,7,3,5,5,6,2,4,4,7,4,7,7,7,1,7,7,7,2,1,1
+66,z3otcqmq,61001d9b2e3d8a75a09f3db3,0,13,13,survey,End,2023-11-14 17:28:20.224605,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,66,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,6,4,1,1,1,1,0,6,6,3,1,4,1,6,1,5,4,5,3,5,5,6,5,6,6,6,7,5,7,4,7,4,6,3,7,6,7,6,7,6,7,5,7,5,7,4,7,4,7,5,1,1
+67,6tr6u9mk,5e69d0627b06f2033bb0fda7,0,13,13,survey,End,2023-11-14 17:28:31.407994,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,67,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,1,6,5,1,0,1,1,0,6,6,6,4,6,1,6,4,5,4,7,7,7,2,7,7,7,5,7,7,7,7,5,7,6,2,7,7,7,7,7,7,7,2,7,7,7,7,7,7,7,2,7,1,1
+68,og5ifrk1,5bbafad7736db000016d8600,0,13,13,survey,End,2023-11-14 17:28:34.409947,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,68,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,6,3,1,0,1,1,1,6,3,4,2,6,2,5,2,6,6,5,5,6,4,7,5,7,5,7,6,4,7,3,6,3,3,4,6,5,6,5,6,6,4,5,6,5,6,5,6,5,3,4,1,1
+69,m0n0fgrc,628e4993121877fe4ae59f29,0,13,13,survey,End,2023-11-14 17:28:51.538086,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,69,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,0,10,7,0,0,1,0,0,6,7,7,6,7,2,3,3,6,5,6,7,6,1,1,1,1,7,7,6,7,2,2,2,2,6,6,6,6,1,1,1,3,6,7,7,7,2,2,2,4,7,6,1,1
+70,ey345aok,5d58d7d6280de7001aa7952a,0,1,13,survey,Landing,2023-11-14 17:29:01.858163,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,70,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+71,g7bopbns,60477705b440ae26c4aaf5bb,0,10,13,survey,QualityFail,2023-11-14 17:29:02.207742,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,71,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,5,,,4,7,5,7,6,6,7,7,7,6,5,3,5,5,5,5,7,1,6,2,5,5,4,4,4,4,6,4,4,4,4,4,7,4,6,4,4,4,4,4,1,1
+72,ab9v42qu,5d332957d0635b00013bd785,0,13,13,survey,End,2023-11-14 17:29:04.901496,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,72,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,5,6,1,0,1,1,0,6,6,4,1,6,3,6,3,5,2,6,5,2,3,7,3,7,2,6,5,2,6,5,6,5,2,6,6,4,6,5,6,5,2,6,6,4,6,5,6,5,2,6,1,1
+73,x6ojjv1m,5febd397ad8fbad21bcd6182,0,13,13,survey,End,2023-11-14 17:29:23.821531,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,73,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,3,7,6,1,0,1,1,1,6,2,5,2,5,3,6,5,3,5,2,3,7,3,7,6,7,1,7,6,3,5,1,2,5,2,7,4,4,6,4,3,4,2,6,6,4,6,3,3,5,2,7,1,1
+74,dsafptd1,62911a82ead4bc61607aa7d8,0,13,13,survey,End,2023-11-14 17:29:35.020910,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,74,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,2,3,1,0,0,1,0,6,5,5,2,6,1,7,4,4,2,4,2,4,2,6,6,6,6,6,6,4,7,2,7,7,5,3,7,6,7,2,7,7,6,4,6,5,7,1,7,7,6,3,1,1
+75,kdbn6y3a,5e402dcd7b260d000a7b69fe,0,13,13,survey,End,2023-11-14 17:29:41.331997,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,75,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,4,5,0,0,0,0,0,6,5,5,2,5,4,5,4,5,5,5,4,6,1,6,2,6,3,7,5,5,4,4,4,4,4,4,5,5,4,4,4,4,4,4,5,5,4,4,4,4,4,4,1,1
+76,c6ckuh2h,5d9373b0e04970001ab482da,0,13,13,survey,End,2023-11-14 17:29:47.343872,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,76,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,7,6,1,0,1,1,0,6,6,4,1,5,4,5,4,4,5,5,5,6,6,6,6,6,6,6,6,5,6,6,6,6,5,6,4,4,4,4,4,4,4,4,6,6,6,6,6,6,6,6,1,1
+77,ngi5gt7i,5a5ec648eedc32000142ce86,0,13,13,survey,End,2023-11-14 17:30:02.004751,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,77,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,2,4,1,0,1,1,0,6,6,4,2,5,1,6,5,5,5,5,6,6,3,6,5,5,6,6,6,6,6,5,6,6,6,6,6,6,6,5,6,6,6,6,6,6,6,5,6,6,6,6,1,1
+78,smkcbr9o,627ea31c91b63d1ddc9ccf19,0,10,13,survey,QualityFail,2023-11-14 17:31:07.935565,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,78,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,7,,,1,4,4,4,4,4,4,4,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,1,1
+79,6hrau0ov,6463695c18c68eee514fd3a3,0,13,13,survey,End,2023-11-14 17:31:34.336952,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,79,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,10,7,1,1,1,1,1,6,7,4,2,7,1,7,2,6,7,4,5,7,2,6,3,6,3,5,6,7,5,7,5,7,2,6,5,6,4,5,3,4,4,7,6,7,1,6,6,6,3,6,1,1
+80,i7axehi5,60e8b06bfb1c78d450ae9f79,0,13,13,survey,End,2023-11-14 17:31:58.798368,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,80,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,0,10,7,1,1,0,0,0,6,7,7,6,7,6,5,4,5,5,4,6,6,5,5,5,4,5,5,6,7,6,6,5,5,6,5,5,6,5,5,5,5,5,5,5,6,5,5,5,4,6,4,1,1
+81,d9i0y0z6,64509bfcd8d8b7e61f801e95,0,13,13,survey,End,2023-11-14 17:32:08.502421,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,81,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,7,6,1,0,1,1,0,6,6,4,2,6,3,6,4,4,5,5,6,7,5,7,6,7,6,7,6,6,6,5,6,6,3,6,6,6,6,5,6,6,4,6,6,6,6,5,6,6,3,6,1,1
+82,9zw1gn8y,5cb2e89bc29be80001b13ed6,0,2,13,survey,SzenarioOne,2023-11-14 17:32:25.223094,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,82,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+83,93rxxidv,641feb2494b8a1eb706ab8a5,0,13,13,survey,End,2023-11-14 17:32:28.996238,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,83,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,0,10,7,0,0,1,1,1,6,7,7,6,7,2,2,5,6,6,6,7,6,1,1,1,5,7,6,6,6,2,2,2,6,6,6,7,7,1,1,1,6,7,7,6,7,2,2,2,6,6,7,1,1
+84,otc9ls0e,5df81cd72713055bdf02efd8,0,13,13,survey,End,2023-11-14 17:32:53.489511,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,84,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,3,6,1,0,1,1,0,6,2,6,2,5,1,6,4,4,6,2,6,7,5,7,5,7,5,5,4,2,6,7,6,6,5,6,5,4,5,6,6,5,5,5,5,4,5,6,6,6,5,6,1,1
+85,g42btbqv,62c3b1a4336684ef3487547e,0,13,13,survey,End,2023-11-14 17:32:54.325228,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,85,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,8,6,1,0,1,1,1,6,6,7,6,3,5,6,5,7,2,6,6,6,3,5,5,5,6,2,5,7,3,5,6,3,4,3,5,3,2,2,6,4,5,4,4,5,5,5,3,6,5,4,1,1
+86,3anomrec,64309be1d7d085ed8ee4c129,0,13,13,survey,End,2023-11-14 17:33:13.423211,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,86,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,"Great study, thank you.",0,0,8,6,1,0,0,0,0,6,4,6,2,5,4,4,4,4,5,6,6,5,5,6,5,6,6,5,5,6,5,5,6,5,5,4,4,6,6,6,5,6,4,5,4,4,5,5,5,6,4,5,1,1
+87,t5reuibw,64664bc615dd4139df276075,0,13,13,survey,End,2023-11-14 17:33:40.099433,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,87,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,8,3,1,0,1,1,0,6,6,5,2,4,2,5,2,3,5,2,4,7,2,5,3,6,3,7,6,4,5,5,5,5,2,6,5,5,6,4,5,5,4,5,6,5,6,5,5,5,4,6,1,1
+88,hmxxbx1g,5a07a6af002e1800019d6aab,0,10,13,survey,QualityFail,2023-11-14 17:33:42.838165,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,88,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,7,,,3,6,2,6,5,6,5,6,7,7,5,7,7,7,7,7,7,6,6,6,6,6,4,6,6,6,6,6,6,6,4,6,7,6,6,5,6,6,5,6,1,1
+89,nhe74hyh,5b0a38d230d5620001551e0d,0,13,13,survey,End,2023-11-14 17:33:54.383467,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,89,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,8,4,1,0,1,1,1,6,6,3,2,6,2,6,5,5,2,7,2,7,1,7,7,7,7,1,6,5,5,2,6,6,7,2,6,5,5,2,6,6,7,2,6,6,5,2,6,6,7,2,1,1
+90,wwqe2msg,627809c52874925390a423a6,0,10,13,survey,QualityFail,2023-11-14 17:33:54.747722,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,90,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,2,,,2,5,2,6,2,5,5,5,6,6,6,6,6,6,6,6,6,5,6,5,6,6,6,6,6,5,6,5,6,6,6,6,6,5,6,5,6,6,6,6,1,1
+91,iyl0y139,54e32a60fdf99b3eae9de85b,0,13,13,survey,End,2023-11-14 17:34:08.029740,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,91,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,1,5,1,0,0,0,0,6,4,3,2,6,2,6,2,5,2,6,6,6,4,6,6,6,6,6,6,6,5,2,6,5,6,2,6,6,5,4,5,5,6,2,6,6,6,4,6,6,6,2,1,1
+92,745is88d,5a381de00006450001bf2691,0,13,13,survey,End,2023-11-14 17:34:32.072768,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,92,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,4,6,0,0,0,0,0,6,3,4,1,6,2,6,5,5,2,7,5,6,5,7,7,7,6,5,7,6,7,3,7,7,7,1,7,7,7,4,7,7,7,2,7,7,7,3,7,7,7,1,1,1
+93,4fk7vlr5,5ffc9218eb4ab30bbeb6c301,0,13,13,survey,End,2023-11-14 17:34:39.382456,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,93,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,3,3,10,7,1,0,1,1,0,6,6,4,1,7,1,7,4,4,5,3,4,7,1,7,4,4,2,7,5,4,6,3,5,3,6,4,5,4,6,3,5,3,6,4,5,4,6,3,5,3,6,4,1,1
+94,tashm8q7,628f7ed6b17795e8b70cc336,0,13,13,survey,End,2023-11-14 17:34:41.544086,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,94,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,none,2,1,10,7,1,1,1,1,1,6,6,7,4,5,4,3,5,6,5,4,5,4,5,5,3,5,2,2,4,4,3,4,4,5,2,2,3,4,4,4,4,4,2,2,5,5,6,5,4,4,2,2,1,1
+95,e8qn8534,5e7909d956b26e4aba9a460b,0,13,13,survey,End,2023-11-14 17:34:59.815888,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,95,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,3,2,4,1,0,1,1,1,6,4,4,2,6,2,6,2,7,7,2,2,6,5,7,2,5,6,4,6,4,6,6,5,5,1,7,6,4,6,6,7,6,1,7,7,4,6,6,6,7,1,7,1,1
+96,jcvncp9p,5694e7b5e0c800000b5a3841,0,13,13,survey,End,2023-11-14 17:35:27.217669,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,96,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,1,4,5,1,1,1,1,0,6,3,2,2,5,1,6,4,4,7,1,2,6,5,7,6,6,7,6,6,4,7,5,6,6,1,7,6,4,7,4,6,6,1,7,6,5,7,3,6,6,1,7,1,1
+97,0cmmsg5a,5f51135fd3e0342eda5f66c5,0,13,13,survey,End,2023-11-14 17:35:30.491604,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,97,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,3,6,1,0,1,1,0,6,4,4,2,5,2,4,1,4,2,7,4,6,2,6,6,6,6,6,6,5,4,2,6,5,2,6,6,6,4,4,6,6,1,7,7,7,7,1,7,7,1,7,1,1
+98,t9wgtp9a,63cdf894c118ad4f84489c1a,0,13,13,survey,End,2023-11-14 17:35:31.360063,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,98,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,good survey,1,1,9,7,1,1,1,1,1,6,7,6,1,7,1,7,1,7,4,7,1,7,1,7,1,7,7,1,7,3,7,1,7,1,7,1,7,1,7,1,7,1,7,1,7,7,7,1,7,3,7,1,1,1
+99,7jqvytls,6543b45c83d1b44b75245a18,0,13,13,survey,End,2023-11-14 17:35:40.452592,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,99,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,This was a thought-provoking exercise. Thank you.,2,1,7,5,1,0,1,1,0,6,6,5,2,5,4,6,2,6,6,2,4,6,4,6,5,6,5,6,5,4,4,5,6,4,4,6,5,5,5,5,6,5,5,7,6,6,5,6,6,6,4,6,1,1
+100,8z7f8z3o,616b5241d8eb9504f10a5cb2,0,13,13,survey,End,2023-11-14 17:35:40.208799,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,100,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,0,6,7,1,0,1,1,1,6,3,4,1,6,1,6,4,4,6,5,1,7,2,7,7,7,7,7,1,2,7,4,7,7,3,5,1,3,7,4,7,7,3,5,1,3,7,4,7,7,4,5,1,1
+101,dgevoq35,63fe38bfab28b75385783fba,0,13,13,survey,End,2023-11-14 17:35:45.754023,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,101,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,5,6,1,1,1,1,0,6,6,6,2,3,1,4,4,4,1,7,7,7,4,7,3,7,7,7,7,6,7,4,6,5,7,2,7,6,7,4,6,5,7,2,7,6,7,4,6,5,7,2,1,1
+102,wru4is57,5be1ac50ca095c0001b9f717,0,13,13,survey,End,2023-11-14 17:35:48.208345,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,102,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,3,1,5,1,0,0,0,0,6,5,6,1,7,3,5,4,4,7,1,6,7,4,7,6,7,7,4,7,2,7,4,4,4,1,7,7,4,7,4,4,4,1,7,7,2,7,5,4,4,1,7,1,1
+103,4xfea4ld,631a68ee10ec68377cb03457,0,13,13,survey,End,2023-11-14 17:35:56.191158,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,103,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,2,1,4,4,1,0,1,1,1,6,4,2,1,6,1,7,1,6,1,7,6,7,3,7,2,7,7,7,6,6,5,5,5,5,7,1,6,6,5,5,5,5,7,1,6,6,5,5,5,5,7,1,1,1
+104,8yn9yxbi,5d5c25578af5fd0001ef3aee,0,10,13,survey,QualityFail,2023-11-14 17:36:00.976479,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,104,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,1,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,,,,,,,,,,2,,,1,6,1,6,2,6,5,2,6,4,6,6,6,6,2,6,6,3,6,4,6,4,2,6,6,5,6,5,6,5,2,6,6,4,6,4,6,4,2,6,1,1
+105,suu90q29,5e3079c558a8c8073fdb1ff9,0,13,13,survey,End,2023-11-14 17:36:03.748293,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,105,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,1,6,4,1,0,0,0,0,6,5,4,6,4,2,5,3,3,5,3,4,5,3,6,6,5,3,6,5,4,5,3,5,5,3,5,5,5,5,2,6,5,3,6,6,4,5,3,4,5,4,6,1,1
+106,kok3aeu1,63c4a90d09909e33d5e82f21,0,13,13,survey,End,2023-11-14 17:36:36.456468,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,106,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,0,0,8,5,0,1,0,0,0,6,7,5,4,3,1,6,3,3,2,6,7,7,7,7,7,7,7,7,4,4,5,5,6,7,6,6,4,4,6,6,7,6,7,7,4,4,5,5,6,6,6,6,1,1
+107,j0932h2l,631fd12cab0b639506214b7b,0,13,13,survey,End,2023-11-14 17:37:25.899313,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,107,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,5,5,1,1,1,1,1,6,7,5,1,6,1,7,1,7,1,7,2,7,1,7,7,7,7,2,6,2,6,1,7,2,7,1,6,3,7,1,6,1,6,1,7,2,7,1,7,1,6,1,1,1
+108,4rs4wyp6,60da18dba560960ea60a8fe5,0,13,13,survey,End,2023-11-14 17:42:22.987819,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,108,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,What was this question about:  > I am happy with the television programs    Seems like a non-sequitur. ,2,1,3,3,1,0,0,0,0,6,5,5,2,5,2,6,4,4,3,5,5,6,6,7,5,5,6,6,6,6,6,6,4,4,6,2,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,1,1
+109,ig1nn5az,60d2cf988de167c9da56eeb0,0,13,13,survey,End,2023-11-14 17:42:37.600577,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,109,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,none,3,1,8,5,1,0,1,1,0,6,6,4,4,5,4,4,5,5,5,5,7,7,1,7,7,7,7,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,4,4,5,5,4,4,1,1
+110,6fr8a4v1,5a6f1ccade1f390001dbd8b7,0,13,13,survey,End,2023-11-14 17:44:33.972153,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,110,,0.0,2_and_3,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,n/a,1,0,3,6,1,0,0,0,0,6,2,2,2,6,1,7,4,4,5,7,5,7,7,7,7,7,7,7,4,4,7,7,7,7,4,4,4,4,4,4,4,4,4,4,7,4,7,2,7,7,4,6,1,1
+111,v4uv4w0j,63ea5b695d3f16b10c21a530,0,13,13,survey,End,2023-11-14 17:49:42.877955,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,111,,0.0,1_and_4,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,Thank you,1,0,6,5,1,0,0,0,0,6,6,4,3,5,3,5,4,4,4,4,4,4,5,5,5,5,4,4,5,5,4,4,4,4,4,4,5,5,4,4,4,4,4,4,5,5,4,4,4,4,4,4,1,1
+112,53o9m59y,6394e32126ebbdc7b10c6748,0,13,13,survey,End,2023-11-14 18:08:33.092737,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,112,,0.0,2_and_3,2_and_3,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,Thank you!,1,0,6,5,1,0,0,0,0,6,6,2,2,6,2,6,2,6,3,5,6,6,4,6,6,6,6,6,6,6,6,6,6,6,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,1
+113,g80wvxwp,5a947fb0f05361000171b5a3,0,13,13,survey,End,2023-11-14 18:15:30.880978,1,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,113,,0.0,1_and_4,1_and_4,https://app.prolific.com/submissions/complete?cc=CG40C7DK,,0,https://app.prolific.com/submissions/complete?cc=C9B87HRO,,1,1,6,4,1,0,1,1,0,6,3,4,1,7,3,6,5,5,3,6,4,7,3,6,5,6,2,7,6,5,5,3,4,4,4,6,6,5,5,3,4,4,4,6,6,6,5,3,4,4,4,7,1,1
+114,1e0yzibl,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,114,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+115,e0omo8am,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,115,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+116,dcee3eeg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,116,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+117,lqfa4r56,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,117,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+118,dwjesiyh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,118,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+119,yssq4ybo,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,119,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+120,i3ojcsl0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,120,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+121,yove7qx7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,121,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+122,f4ugr1g2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,122,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+123,2tp9llqs,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,123,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+124,d1q39v4e,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,124,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+125,pkxt3l0r,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,125,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+126,10ti5sj6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,126,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+127,6ho90ilu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,127,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+128,30kz4dor,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,128,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+129,pl9xyw7j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,129,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+130,3cpiz18v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,130,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+131,vbnyr05y,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,131,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+132,72l761o6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,132,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+133,unw2azvh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,133,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+134,oe5wpjzu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,134,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+135,1q58d146,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,135,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+136,c65rqihi,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,136,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+137,spe85cwn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,137,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+138,bxocvmmu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,138,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+139,7tlwmrpf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,139,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+140,v97m2s9a,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,140,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+141,as204j6g,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,141,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+142,o8v6cduj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,142,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+143,2scqdsdi,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,143,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+144,032je7xb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,144,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+145,35p3svh5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,145,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+146,uwjbo3kq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,146,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+147,mlu1o8u0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,147,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+148,1jv7mmeu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,148,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+149,lx7puodj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,149,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+150,u1b5ktc2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,150,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+151,tdla6qig,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,151,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+152,6ugiwzx4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,152,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+153,3gqjoy97,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,153,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+154,6ddkjcbn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,154,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+155,z1o3pjgr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,155,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+156,eg7ipd6b,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,156,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+157,usmh89ya,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,157,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+158,cu5p49jg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,158,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+159,8n3cr97o,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,159,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+160,j3gqti7m,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,160,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+161,lpzkvrbp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,161,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+162,az0uf2q0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,162,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+163,hq7xbvi0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,163,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+164,g915ovmc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,164,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+165,7hedp26s,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,165,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+166,x3apuebn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,166,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+167,8z75m3dj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,167,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+168,cxoonltg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,168,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+169,km9lur18,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,169,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+170,x9n94uig,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,170,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+171,u8ge88gl,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,171,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+172,0ci6aoht,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,172,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+173,y76zf0fi,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,173,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+174,i7qe3vrt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,174,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+175,i9d9bqw7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,175,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+176,l40vwf5q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,176,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+177,avjnxe8h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,177,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+178,daw16np1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,178,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+179,r4acp7p5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,179,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+180,sw10ljmz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,180,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+181,38pczy0w,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,181,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+182,u3hnfv2l,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,182,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+183,4duvifqm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,183,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+184,ltu1derd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,184,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+185,wbdahzs4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,185,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+186,ojiek9t5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,186,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+187,xclw1kiz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,187,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+188,yrhjn534,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,188,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+189,8dlvcxup,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,189,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+190,kksemris,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,190,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+191,rm9trg7g,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,191,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+192,0fn2gfre,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,192,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+193,npxbufdw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,193,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+194,mipmfyi1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,194,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+195,n31babng,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,195,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+196,ocwkydo6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,196,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+197,9zkgian5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,197,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+198,1x32q2li,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,198,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+199,75rdyt0h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,199,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+200,fnw1jikr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,200,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+201,v8bdcznn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,201,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+202,kchyrfkk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,202,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+203,1vp4a1t2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,203,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+204,x6i01plb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,204,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+205,15x3gkbj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,205,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+206,ll9cuodp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,206,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+207,qrlx9l14,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,207,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+208,u8roil5d,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,208,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+209,vkuh7cfo,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,209,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+210,psuq04mv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,210,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+211,htl07pfn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,211,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+212,zl0c0bsf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,212,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+213,l6fkza19,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,213,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+214,6t9wevea,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,214,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+215,qe8fk6g4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,215,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+216,60stuay3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,216,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+217,gmsq6try,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,217,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+218,bn8egm3v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,218,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+219,mvy3bou5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,219,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+220,1bp20qss,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,220,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+221,y2619tm7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,221,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+222,iu53pn30,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,222,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+223,z97jgynw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,223,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+224,20kjnt8h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,224,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+225,h6g33rlv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,225,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+226,95c5ob9m,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,226,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+227,rpzchoz4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,227,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+228,qqcayyz8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,228,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+229,loq8bqoy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,229,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+230,ttykqa4l,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,230,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+231,delesszq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,231,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+232,wfdb4ovx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,232,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+233,r6f8hrze,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,233,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+234,qp5nufz8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,234,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+235,42t57avc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,235,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+236,jmdbpcct,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,236,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+237,op98xrj4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,237,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+238,86plkx4q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,238,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+239,6a0i4f5b,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,239,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+240,76z0qk9h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,240,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+241,24uzmkb6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,241,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+242,101j3syc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,242,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+243,eoymerct,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,243,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+244,fdep1e0l,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,244,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+245,xy7ir028,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,245,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+246,hwda8flz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,246,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+247,oxwqtxl0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,247,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+248,r92jsdth,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,248,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+249,i120mqzt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,249,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+250,qwi8dwu2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,250,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+251,7gjytf31,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,251,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+252,v21ltrlr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,252,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+253,efy3vnz6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,253,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+254,0eazrnk5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,254,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+255,0mtmr92h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,255,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+256,txkvztcm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,256,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+257,gsag5d3u,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,257,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+258,avm2uzh6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,258,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+259,hg92m9qr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,259,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+260,pe82r9tl,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,260,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+261,nwfafo90,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,261,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+262,l05se4yc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,262,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+263,s3rhrhne,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,263,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+264,rd2ns83b,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,264,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+265,n2wvzum9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,265,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+266,16djs9ns,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,266,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+267,b51y5y8w,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,267,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+268,vre4l93r,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,268,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+269,pumgznmd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,269,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+270,2ragszue,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,270,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+271,92pm93qk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,271,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+272,93aezubd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,272,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+273,p24dclek,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,273,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+274,yptq00bj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,274,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+275,txbxmv9j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,275,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+276,u1o0f6sd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,276,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+277,29kck3rx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,277,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+278,f7d1xh1r,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,278,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+279,sbay8iux,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,279,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+280,a1hb2ckp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,280,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+281,ahk08n71,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,281,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+282,7yfrjub8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,282,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+283,k4y78zhu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,283,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+284,21xmeck8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,284,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+285,v7raa337,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,285,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+286,c8rysvmr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,286,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+287,vvg0lh1v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,287,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+288,hi2kxy7z,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,288,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+289,lkmqz0ja,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,289,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+290,dl2zn6lh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,290,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+291,ov9pnsou,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,291,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+292,xb9jlik5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,292,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+293,dcpk3uqz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,293,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+294,liiat8hb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,294,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+295,57hruwkj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,295,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+296,0ip9qo9s,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,296,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+297,xn3fq5fl,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,297,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+298,po6t6add,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,298,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+299,jeu2wvgg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,299,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+300,gseluse7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,300,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+301,kt6irzfi,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,301,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+302,ex8a2j87,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,302,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+303,zqt9f3hf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,303,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+304,oyp4yij2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,304,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+305,axo0d0um,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,305,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+306,w4zspwvu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,306,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+307,4x4vpau9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,307,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+308,fgrpihis,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,308,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+309,odxllxhp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,309,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+310,skeqkv4v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,310,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+311,y90xhijm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,311,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+312,w5hy5wb1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,312,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+313,kbbey3rw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,313,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+314,qx5ak5qc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,314,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+315,w6xroddx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,315,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+316,enza8l5u,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,316,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+317,mrug4was,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,317,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+318,q60i22mt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,318,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+319,og0jkqds,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,319,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+320,liq2nkh3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,320,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+321,r4bjuhv8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,321,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+322,2icwmtqb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,322,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+323,mq15xxd8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,323,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+324,7tbqkuhn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,324,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+325,rgmjnlxo,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,325,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+326,7l5zeizc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,326,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+327,hnxgy5w6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,327,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+328,qm2fbs0z,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,328,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+329,basr8n0a,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,329,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+330,bzcggjn7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,330,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+331,pqgfkv33,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,331,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+332,nedivix4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,332,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+333,lot9dgxg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,333,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+334,64nqjxk5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,334,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+335,eeyp2cps,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,335,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+336,3p5o266u,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,336,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+337,ok2gjfwz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,337,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+338,bmnc43rw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,338,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+339,1vni4tcd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,339,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+340,95q3p077,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,340,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+341,8abfqzz1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,341,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+342,t36lpdou,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,342,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+343,sk5umnc6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,343,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+344,xiv7ydyr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,344,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+345,hng9vfrq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,345,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+346,29s3ugah,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,346,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+347,ugc5u9cv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,347,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+348,6oqtactm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,348,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+349,8ez3clvt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,349,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+350,47abns3l,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,350,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+351,non6hmcb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,351,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+352,l6ngatvv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,352,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+353,ielhrmdr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,353,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+354,0rcyevfg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,354,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+355,izn8z76l,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,355,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+356,vcfbkga8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,356,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+357,ssuav0og,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,357,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+358,srdgrc1o,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,358,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+359,y3yr64jn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,359,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+360,zaife7ta,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,360,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+361,tl8gp1tt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,361,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+362,3ww4vlsf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,362,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+363,6zo0dwrc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,363,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+364,jf9si2qx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,364,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+365,l649lyg2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,365,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+366,n516mwzt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,366,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+367,dpnbe877,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,367,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+368,ub5rmkgn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,368,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+369,u0djyhk8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,369,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+370,bokas4vx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,370,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+371,5nscvuf1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,371,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+372,hlj93t58,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,372,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+373,2rbd6aji,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,373,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+374,bpt5m95v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,374,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+375,hlqivw22,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,375,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+376,9uv3whni,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,376,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+377,hqp9nbjr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,377,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+378,rpu2aw1g,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,378,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+379,6rp3zbqq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,379,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+380,5oimxdb3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,380,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+381,k89pya22,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,381,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+382,mu7bufl3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,382,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+383,tgrrexgq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,383,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+384,0b7kh3zv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,384,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+385,qbruxsu2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,385,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+386,r7u34ryy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,386,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+387,b88lenge,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,387,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+388,fup323z2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,388,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+389,rl98aq7b,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,389,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+390,mpnsnzp9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,390,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+391,98my6dno,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,391,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+392,pus2u0sq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,392,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+393,aqwvsvrj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,393,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+394,u5ljv3sm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,394,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+395,722fp3es,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,395,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+396,cj8gf59m,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,396,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+397,pomw6lmj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,397,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+398,fiwm0d5t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,398,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+399,36p9b59y,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,399,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+400,x33r6a6e,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,400,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+401,h3h7egt0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,401,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+402,d8u681er,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,402,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+403,czgxph21,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,403,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+404,6gah1nen,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,404,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+405,p8uwlq03,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,405,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+406,3d3f75pr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,406,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+407,za931njd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,407,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+408,09xftwj3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,408,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+409,c19dhi4f,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,409,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+410,eykz66ob,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,410,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+411,q0oilgu5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,411,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+412,fcmpf0rd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,412,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+413,mr6tij6x,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,413,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+414,j8m9hari,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,414,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+415,m5eqlbjm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,415,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+416,4r29pz8z,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,416,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+417,eo6hqzx0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,417,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+418,gfngwhpb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,418,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+419,losfj1wv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,419,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+420,2hrsinq2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,420,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+421,fv9cvsir,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,421,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+422,pdtb7kq2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,422,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+423,lm48aayp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,423,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+424,cqpvzbux,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,424,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+425,yze6po39,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,425,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+426,klos0szv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,426,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+427,yoys7gen,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,427,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+428,ettywsa6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,428,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+429,6hd5ogel,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,429,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+430,48th4wpf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,430,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+431,1ghho0u0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,431,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+432,w4i1eavu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,432,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+433,1m8ppv2n,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,433,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+434,8740kd3m,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,434,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+435,7qb0wkps,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,435,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+436,jr9d01sa,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,436,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+437,a63gof2h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,437,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+438,wqkc4002,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,438,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+439,zlzzuey5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,439,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+440,223vq635,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,440,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+441,qqfikz6c,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,441,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+442,yg7hnepi,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,442,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+443,josmf5mv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,443,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+444,ffz6fq1d,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,444,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+445,p6y28ie0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,445,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+446,5qdf8prd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,446,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+447,4mz1lpzl,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,447,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+448,th9bz5zu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,448,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+449,gedy88xt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,449,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+450,445qbtqm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,450,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+451,r1kpnri2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,451,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+452,gkaeowdw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,452,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+453,ysmjctf2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,453,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+454,dsfhxs2p,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,454,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+455,b24ytbxe,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,455,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+456,22xdkkcc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,456,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+457,qlnpbvb5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,457,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+458,sxox3jlf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,458,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+459,pvneljyh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,459,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+460,o614hrw9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,460,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+461,bpyqis8d,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,461,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+462,4fi83ggj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,462,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+463,wbpsl80x,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,463,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+464,dc6b520t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,464,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+465,avexl9wd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,465,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+466,1aguxuh5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,466,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+467,ipfag6ww,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,467,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+468,en17j53o,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,468,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+469,23c5icn0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,469,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+470,ub86i15v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,470,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+471,quczbu30,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,471,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+472,jg1ximur,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,472,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+473,4tg2g86y,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,473,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+474,xnkk5i7l,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,474,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+475,tlav8a6l,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,475,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+476,ibxw2bhf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,476,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+477,11qez2ij,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,477,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+478,ab6o9ugj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,478,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+479,wdcsm2cf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,479,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+480,khunduss,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,480,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+481,fmrqvex8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,481,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+482,731l6rs5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,482,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+483,olgida36,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,483,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+484,ho6h9js7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,484,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+485,mo0gh2ge,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,485,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+486,0y7jexyx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,486,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+487,fuekqjz0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,487,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+488,f0tjlnct,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,488,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+489,2krf6m9j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,489,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+490,fy6csdlk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,490,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+491,be06rqes,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,491,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+492,caajthjf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,492,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+493,z3hkqjh3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,493,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+494,716rm2ii,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,494,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+495,pu3rz0fq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,495,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+496,dk3w2e25,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,496,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+497,ul8fogpd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,497,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+498,l29j5qu6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,498,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+499,incalcx8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,499,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+500,12wnfo8i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,500,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+501,plh022wr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,501,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+502,sig95ebs,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,502,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+503,242rrjlg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,503,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+504,fbbpqpfu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,504,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+505,s739k048,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,505,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+506,qwuyays2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,506,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+507,jqmzf8lg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,507,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+508,4s4xfiek,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,508,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+509,gib571y6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,509,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+510,5ewhrd8k,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,510,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+511,jbgy05j4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,511,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+512,3y0ti5oi,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,512,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+513,l3unyuqv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,513,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+514,eglaoc67,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,514,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+515,6femyxrd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,515,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+516,pqmi6fvr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,516,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+517,7ff0w9ej,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,517,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+518,ob99guab,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,518,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+519,ajq9fu43,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,519,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+520,nnl64ec0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,520,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+521,iaih2ml2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,521,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+522,26or5bkw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,522,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+523,d3u6pivm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,523,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+524,e0x4dc6r,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,524,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+525,e82acqxl,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,525,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+526,aa1oknyy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,526,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+527,lww8i5jc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,527,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+528,t76g9cfc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,528,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+529,en4d2nds,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,529,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+530,6rfl2qta,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,530,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+531,59lu7tet,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,531,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+532,w56y90k3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,532,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+533,nel5hwol,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,533,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+534,ofgzif7c,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,534,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+535,h4exrqdj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,535,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+536,l95brby7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,536,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+537,n95672f0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,537,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+538,58y0z7qu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,538,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+539,o79dp3wu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,539,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+540,hd7xa1mn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,540,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+541,unvvsq0j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,541,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+542,3576190x,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,542,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+543,mhgkrvup,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,543,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+544,s8sq3q45,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,544,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+545,4627d7zn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,545,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+546,ct4020oe,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,546,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+547,7pa6mwq1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,547,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+548,pft501nj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,548,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+549,plt273lj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,549,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+550,ysn6gnhs,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,550,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+551,dvjkr8ge,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,551,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+552,icwxxz8u,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,552,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+553,2a9dafoz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,553,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+554,14v883k4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,554,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+555,7c8pp2al,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,555,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+556,tosnogk3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,556,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+557,u967t3h5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,557,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+558,2p59pa46,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,558,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+559,j74gwdzp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,559,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+560,go4h10g5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,560,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+561,gb83mrdw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,561,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+562,amsw578i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,562,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+563,5t5fj3qv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,563,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+564,6vty420a,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,564,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+565,dx6wgkq4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,565,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+566,l7q1gop1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,566,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+567,bym9kpbr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,567,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+568,go0fh54f,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,568,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+569,zow5cp56,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,569,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+570,9bweldhv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,570,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+571,mz57yslv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,571,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+572,z29efbeh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,572,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+573,x8h0d0rn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,573,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+574,4l2kd52c,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,574,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+575,2cvnl19e,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,575,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+576,ihofduf3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,576,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+577,gfz3dkxg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,577,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+578,my9iqhj6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,578,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+579,f09qy41k,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,579,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+580,kmmqt02n,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,580,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+581,nyqz6f5f,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,581,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+582,ipd7ppij,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,582,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+583,dnx971yy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,583,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+584,1thtgu57,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,584,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+585,14oawg3p,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,585,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+586,bka8g5uu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,586,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+587,ojzo6v3h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,587,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+588,pqlh7ioz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,588,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+589,4busv6cb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,589,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+590,e6mk3c8t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,590,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+591,qbwsjdgg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,591,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+592,fvxe05jh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,592,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+593,yqu8ttx0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,593,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+594,2gzdpqua,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,594,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+595,1x1y9p5q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,595,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+596,voeytyak,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,596,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+597,fc4asss7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,597,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+598,02irctmq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,598,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+599,9oen2pwx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,599,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+600,tx80od2c,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,600,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+601,th60h8z3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,601,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+602,whqtvz5m,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,602,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+603,49a6id1n,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,603,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+604,qyicohtm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,604,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+605,qrjypy3c,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,605,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+606,ey0ipw7k,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,606,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+607,4gthh1pu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,607,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+608,2lr0eb32,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,608,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+609,7xwpf2we,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,609,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+610,x0qnmdkd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,610,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+611,07ecqv6j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,611,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+612,mm3estlf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,612,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+613,avyttipl,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,613,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+614,loetfo8t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,614,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+615,wrw427k2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,615,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+616,i87d26kr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,616,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+617,w4ork5v3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,617,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+618,2lpblsxf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,618,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+619,c6wmmdio,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,619,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+620,ul57pcy4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,620,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+621,2s52akld,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,621,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+622,nzrwagea,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,622,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+623,retx2zjk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,623,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+624,jnzdn603,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,624,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+625,kyjyboed,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,625,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+626,bzu30tdc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,626,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+627,4itr28d2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,627,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+628,oxhu96il,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,628,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+629,0ddcyigf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,629,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+630,19vr27tb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,630,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+631,7fg86dd5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,631,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+632,e580spyf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,632,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+633,grxxs6a6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,633,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+634,w0lx9ac7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,634,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+635,f9kt202n,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,635,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+636,ilhg0maf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,636,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+637,j5irz2hw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,637,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+638,jnb0rhnc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,638,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+639,q57vlhtk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,639,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+640,kqrnfp7j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,640,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+641,0ueev8uu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,641,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+642,obvnhqgu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,642,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+643,kals9xme,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,643,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+644,opcl8j7j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,644,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+645,ljm9bsm2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,645,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+646,nhqwjuom,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,646,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+647,x5zegj0i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,647,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+648,r0c3g2lc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,648,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+649,5h1mtuz7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,649,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+650,gj0dj9ow,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,650,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+651,w3m0kbec,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,651,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+652,bw5olgyy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,652,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+653,6bzzcs2f,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,653,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+654,mku3ondu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,654,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+655,wn8osc6q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,655,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+656,bm9v3htu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,656,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+657,5ck2o5uf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,657,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+658,8zlf34iu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,658,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+659,9gms7rca,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,659,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+660,5muyikns,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,660,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+661,wzs31jol,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,661,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+662,j5w72uus,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,662,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+663,wd66bv3t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,663,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+664,upvups1n,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,664,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+665,lvrag3w4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,665,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+666,ub1dr3sc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,666,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+667,nx6elnod,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,667,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+668,48kqykmv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,668,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+669,xqjnmfbq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,669,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+670,gmi37kmb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,670,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+671,myy3q72s,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,671,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+672,cc9hqpmh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,672,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+673,w5p3qq5d,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,673,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+674,ka9ubaci,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,674,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+675,kwllulze,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,675,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+676,1iqrtg26,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,676,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+677,lowfz4g2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,677,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+678,w9j4qucp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,678,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+679,4o6h5q49,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,679,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+680,6nukgqtf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,680,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+681,ra04fpbu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,681,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+682,uu66tzj1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,682,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+683,c4z54m7l,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,683,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+684,orsdac2k,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,684,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+685,gokgc82v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,685,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+686,fdv96r1x,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,686,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+687,emmdjw3j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,687,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+688,tel67h44,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,688,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+689,x80u7y42,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,689,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+690,3q1pwimx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,690,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+691,2nopwcq4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,691,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+692,3jkp6ec2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,692,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+693,8ra2f0ss,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,693,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+694,u91t2jlk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,694,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+695,2vlvrt79,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,695,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+696,8x7qz3d8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,696,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+697,evxwa6u6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,697,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+698,5sdmcsfv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,698,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+699,hcc6tbfq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,699,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+700,lab900kf,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,700,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+701,9g5yk99b,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,701,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+702,qa98gay3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,702,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+703,0ls6ig18,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,703,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+704,8ij2e3gm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,704,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+705,fcvya41u,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,705,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+706,bp6uxa16,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,706,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+707,wugcte0w,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,707,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+708,i4vxiq0j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,708,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+709,4obt5p8v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,709,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+710,xuoe5z5k,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,710,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+711,1xlfu7s6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,711,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+712,le2i7u4m,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,712,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+713,os9zaphz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,713,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+714,kg972ijg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,714,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+715,wtpltmob,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,715,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+716,t15fjlxr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,716,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+717,odj2bcll,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,717,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+718,qzbdbl2u,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,718,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+719,1zrtm5xs,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,719,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+720,04n0dxam,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,720,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+721,vj2925qs,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,721,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+722,sezvekhz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,722,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+723,ueszulam,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,723,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+724,etza4qy7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,724,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+725,4ldrx6i0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,725,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+726,9kyb0bxc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,726,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+727,nvu5wvt1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,727,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+728,zyplydob,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,728,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+729,qeliulmr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,729,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+730,f5dq9ve4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,730,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+731,2i51xley,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,731,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+732,jlav8iap,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,732,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+733,qbs0np7a,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,733,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+734,ei68f8lq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,734,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+735,fyoi38dr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,735,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+736,hmvitu3p,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,736,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+737,wzlfj70j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,737,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+738,ax9inwlp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,738,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+739,hsueopku,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,739,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+740,ddcnljh6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,740,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+741,9ctwc2hd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,741,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+742,qtl3u794,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,742,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+743,wkh72hvn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,743,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+744,anca140e,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,744,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+745,cnq9ssgc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,745,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+746,dcdcyy15,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,746,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+747,0keob2x5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,747,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+748,08v7z0ol,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,748,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+749,e3435gfh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,749,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+750,yg2y4m8n,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,750,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+751,0r3761go,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,751,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+752,l7tqr4sn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,752,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+753,9j8iim2i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,753,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+754,9a5xaz7j,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,754,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+755,j2c4e9nc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,755,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+756,0yabc81y,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,756,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+757,cbta4mzh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,757,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+758,3qputk2r,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,758,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+759,mz6fzyim,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,759,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+760,olui115t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,760,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+761,e766w002,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,761,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+762,g5tjg9m1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,762,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+763,0heqj5m6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,763,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+764,om9yuoy4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,764,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+765,3cqdhpyw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,765,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+766,ki9jzd3h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,766,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+767,cssgubtu,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,767,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+768,1x6d60kw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,768,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+769,c7w7e8s4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,769,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+770,7av4fcy7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,770,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+771,33gdatkg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,771,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+772,xj4f526d,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,772,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+773,z30zr3v8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,773,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+774,15pp717m,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,774,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+775,bllhv0pg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,775,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+776,allf97zr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,776,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+777,97kc9gc0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,777,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+778,fu7c44by,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,778,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+779,sydbr1jy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,779,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+780,e1tysj9i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,780,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+781,v4aaow2i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,781,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+782,144au1g4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,782,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+783,ctq9jihb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,783,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+784,429oe8ck,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,784,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+785,lcnidhu3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,785,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+786,u952ksa9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,786,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+787,4zjztt0t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,787,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+788,ndn3qqmk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,788,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+789,yw9lny1i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,789,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+790,bmt37krt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,790,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+791,0mtaqvnn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,791,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+792,3dgkpnx6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,792,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+793,zqsr6j0o,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,793,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+794,gzlx4f2s,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,794,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+795,jmz6en2o,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,795,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+796,bu2kb6d7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,796,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+797,hxqv3yr0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,797,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+798,e9bx1ynn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,798,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+799,areb0c9g,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,799,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+800,ildwh9ax,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,800,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+801,6kn3e6e8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,801,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+802,xxgg5mzk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,802,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+803,ppokd58m,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,803,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+804,2qk4eoeh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,804,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+805,ewpoze7h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,805,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+806,9eiej9w9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,806,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+807,k5n50fc6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,807,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+808,yw2b2bex,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,808,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+809,db1vsebm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,809,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+810,d608cnid,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,810,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+811,9fgjzuud,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,811,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+812,adxs866k,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,812,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+813,9l930d81,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,813,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+814,5xczcs9y,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,814,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+815,bwn8yf2f,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,815,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+816,asca0bdt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,816,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+817,7s6bmm81,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,817,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+818,vdejwjwr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,818,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+819,tx0y2vo5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,819,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+820,4pqcb6v8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,820,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+821,4aqrtlmq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,821,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+822,rn2sd64t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,822,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+823,yuqzufd1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,823,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+824,8xkejjts,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,824,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+825,cu6437mj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,825,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+826,phh0t0o3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,826,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+827,0eoumczy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,827,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+828,zusebegg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,828,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+829,rk2gbkef,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,829,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+830,vlekyvcg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,830,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+831,n48kavc9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,831,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+832,6n4e0h4d,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,832,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+833,g78liyfn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,833,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+834,bhoafvly,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,834,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+835,ysaj5urb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,835,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+836,9s021mn4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,836,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+837,tssjbc7v,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,837,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+838,gyqeesha,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,838,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+839,9k6i95fd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,839,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+840,wb0xouz3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,840,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+841,cr2ym0vq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,841,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+842,g8btdw4i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,842,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+843,mqh7w0e4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,843,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+844,dcs5759r,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,844,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+845,d6topcr6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,845,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+846,sicmg3a7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,846,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+847,ibl4a605,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,847,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+848,iulv7ko9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,848,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+849,ii03nlkq,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,849,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+850,nexeo3hh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,850,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+851,x4p392h9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,851,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+852,6xrls6wj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,852,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+853,iatvdb5h,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,853,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+854,s37gk0e9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,854,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+855,d1aunnre,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,855,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+856,spofq11u,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,856,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+857,wlroi7t5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,857,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+858,5mvtflj1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,858,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+859,9msfo8ag,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,859,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+860,cq50iqiz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,860,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+861,sw8ktz4n,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,861,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+862,p102xic0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,862,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+863,k8qabxtc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,863,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+864,adocgbkt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,864,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+865,ifunx3bn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,865,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+866,yio7ya0t,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,866,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+867,ihuomi15,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,867,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+868,sodjzl13,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,868,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+869,mddt6kdt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,869,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+870,eacha5km,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,870,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+871,zo02457x,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,871,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+872,70jb7wb9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,872,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+873,3e2ztzfr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,873,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+874,njfnrk3o,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,874,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+875,mo08wkqp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,875,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+876,i8bpg3gl,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,876,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+877,hbcsy4tj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,877,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+878,9br3qvg3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,878,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+879,gfxvws43,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,879,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+880,0t08h6b2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,880,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+881,657v0jjk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,881,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+882,sd5gj8wb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,882,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+883,lf30d1em,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,883,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+884,gzt0d33i,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,884,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+885,2niuq6x1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,885,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+886,whknbt53,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,886,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+887,ss2psxt3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,887,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+888,ycnd3t0q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,888,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+889,51ypopvs,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,889,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+890,0zgga7a1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,890,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+891,18urun45,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,891,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+892,qiz0c28r,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,892,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+893,an8hgxbd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,893,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+894,wgtnbfpk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,894,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+895,j44l3z0c,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,895,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+896,l2jqi1oj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,896,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+897,38m1plrj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,897,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+898,m6f7ggg9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,898,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+899,cqlerbd9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,899,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+900,3iyha7br,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,900,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+901,xpriywi7,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,901,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+902,zidg12tj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,902,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+903,c0o2akcw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,903,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+904,cdn5kywt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,904,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+905,3i7m0wge,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,905,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+906,xjvopema,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,906,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+907,wkugpfo8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,907,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+908,rifux7qy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,908,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+909,ogy827oz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,909,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+910,o6jhlba5,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,910,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+911,fp9jumhj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,911,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+912,71scriri,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,912,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+913,yxsuxf57,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,913,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+914,3inr85k0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,914,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+915,o6tbn2ql,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,915,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+916,3ybap5bb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,916,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+917,uu4d97gx,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,917,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+918,krrbuy9q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,918,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+919,3ftjkx4p,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,919,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+920,cgutb4n2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,920,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+921,o5xbmeuh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,921,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+922,8xmtfylm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,922,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+923,hcw8npwr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,923,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+924,uvxjg4qe,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,924,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+925,9kt5ay10,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,925,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+926,x0tllcu2,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,926,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+927,rkymbn60,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,927,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+928,hnxtygbr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,928,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+929,sezo0si9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,929,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+930,5euo4xry,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,930,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+931,oq5bib01,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,931,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+932,18s9epqk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,932,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+933,6b0lmeiw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,933,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+934,02o0xk67,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,934,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+935,ts5cg92k,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,935,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+936,ofp7li7q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,936,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+937,dlr47soj,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,937,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+938,69b4a8ck,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,938,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+939,hfbdy6lv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,939,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+940,fksaigrd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,940,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+941,5f6y8ers,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,941,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+942,jqfi52l8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,942,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+943,1u0yxln4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,943,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+944,2h1d4i88,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,944,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+945,3w1mqcd4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,945,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+946,lad47b48,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,946,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+947,yaezcvt3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,947,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+948,1fho9v2q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,948,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+949,u2q87l2n,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,949,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+950,pbo8aezn,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,950,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+951,3xgms1kc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,951,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+952,hy94dcu8,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,952,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+953,xl25fm7a,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,953,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+954,kis4v45q,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,954,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+955,auplbt8a,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,955,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+956,cdedbkhi,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,956,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+957,jyen9t6y,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,957,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+958,y37g42w1,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,958,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+959,ctilydmg,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,959,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+960,uz2ulyol,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,960,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+961,a4gx6l7p,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,961,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+962,snf8hfz6,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,962,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+963,1eevvzbd,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,963,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+964,pyd72tkb,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,964,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+965,vsck0fx0,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,965,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+966,s53sjw35,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,966,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+967,h5cwiqmz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,967,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+968,ro8yu6xw,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,968,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+969,nkshffdm,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,969,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+970,xwlo684z,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,970,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+971,ycfi6ltk,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,971,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+972,iv18gvbr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,972,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+973,ot44ap3s,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,973,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+974,ahw0p1i3,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,974,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+975,wtgxmwvy,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,975,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+976,xkess79x,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,976,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+977,1u9tdhh9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,977,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+978,be7ptlwp,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,978,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+979,8lndht8z,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,979,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+980,1b4p7anh,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,980,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+981,bukkrz12,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,981,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+982,uhatdtxt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,982,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+983,q04l3dmv,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,983,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+984,yqot97mz,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,984,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+985,1wg6haur,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,985,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+986,upb6m2bt,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,986,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+987,qug7nfsc,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,987,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+988,j3qc34gs,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,988,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+989,i02dlo0r,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,989,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+990,2amz3qd9,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,990,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+991,g18wnjmr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,991,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+992,msppcbya,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,992,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+993,knzubydr,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,993,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+994,9436ix2u,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,994,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+995,7dlyqljo,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,995,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+996,nud87tf4,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,996,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+997,rv3ht7ad,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,997,,0.0,1_and_4,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+998,sjg6qf3e,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,998,,0.0,2_and_3,1_and_4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+999,ou8j7dmo,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,999,,0.0,1_and_4,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
+1000,9tf4mzev,,0,0,13,,,,0,,,0.0,kplv6sud,,,,,0,survey,0.0,1.0,,1000,,0.0,2_and_3,2_and_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1
