@@ -34,12 +34,12 @@ class Constants(BaseConstants):
     # failed control check url
     # TODO: Replace with respondi URL
     qualityfail_url_template = (
-        "https://app.prolific.com/submissions/complete?cc=CG40C7DK"
+        "https://app.prolific.com/submissions/complete?cc=CGA1Y97A"
     )
 
     # finished
     # TODO: Replace with respondi URL
-    complete_url_template = "https://app.prolific.com/submissions/complete?cc=C9B87HRO"
+    complete_url_template = "https://app.prolific.com/submissions/complete?cc=C1N2Y8X2"
 
 
 def creating_session(subsession):

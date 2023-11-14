@@ -7,9 +7,13 @@ name = "pypi"
 otree = "*"
 psycopg2 = "*"
 pillow = "~=8.0"
+ipykernel = "*"
+pandas = "*"
+numpy = "*"
 
 [dev-packages]
 djlint = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.9"
