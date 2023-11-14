@@ -16,9 +16,7 @@ def make_field_7point(label):
 
 
 def get_player_qualityfail_url(participant_label):
-    return Constants.qualityfail_url_template.replace(
-        "[unserTicket]", participant_label
-    )
+    return Constants.qualityfail_url_template
 
 
 class Subsession(BaseSubsession):
@@ -36,14 +34,12 @@ class Constants(BaseConstants):
     # failed control check url
     # TODO: Replace with respondi URL
     qualityfail_url_template = (
-        "https://survey.maximiles.com/quality?p=89360&m=[unserTicket]"
+        "https://app.prolific.com/submissions/complete?cc=CWXRQ7QL"
     )
 
     # finished
     # TODO: Replace with respondi URL
-    complete_url_template = (
-        "https://survey.maximiles.com/complete?p=89360_aca788b3&m=[unserTicket]"
-    )
+    complete_url_template = "https://app.prolific.com/submissions/complete?cc=C1LD3MFD"
 
 
 def creating_session(subsession):
@@ -72,7 +68,7 @@ def check_if_player_failed_quality_check(player):
 
 
 def get_player_complete_url(participant_label):
-    return Constants.complete_url_template.replace("[unserTicket]", participant_label)
+    return Constants.complete_url_template
 
 
 class Group(BaseGroup):
