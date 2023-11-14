@@ -144,6 +144,21 @@ class Player(BasePlayer):
         widget=widgets.RadioSelect,
     )
 
+    algo_aversion = models.IntegerField(
+        label="In general, I will rather decide by myself rather than follow the decisions given by an algorithm.",
+        choices=[
+            [1, "1: fully disagree"],
+            [2, "2"],
+            [3, "3"],
+            [4, "4"],
+            [5, "5"],
+            [6, "6"],
+            [7, "7: fully agree"],
+        ],
+        blank=False,
+        widget=widgets.RadioSelect,
+    )
+
     teamlead = models.IntegerField(
         label="Do you currently have personnel responsibility in your real working life?",
         choices=[[0, "no"], [1, "yes"]],
@@ -159,14 +174,14 @@ class Player(BasePlayer):
     )
 
     pa_heard = models.IntegerField(
-        label='Are you familiar with the term "people analytics"?',
+        label="Before this experiment, did you know what the term people analytics meant?",
         choices=[[0, "no"], [1, "yes"]],
         blank=False,
         widget=widgets.RadioSelect,
     )
 
     pa_knowledge = models.IntegerField(
-        label='Do you know what is meant by the term "people analytics"?',
+        label='Before this experiment, did you know what is meant by the term "people analytics"?',
         choices=[[0, "no"], [1, "yes"]],
         blank=False,
         widget=widgets.RadioSelect,
@@ -360,6 +375,7 @@ class Experience(Page):
         "home_office",
         "home_office_need",
         "risk_propensity",
+        "algo_aversion",
         "teamlead",
         "hr_job",
         "pa_heard",
