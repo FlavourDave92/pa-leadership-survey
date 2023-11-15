@@ -11,6 +11,8 @@ pandas = "^2.1.3"
 numpy = "^1.26.2"
 plotly = "^5.18.0"
 ipykernel = "^6.26.0"
+nbformat = "^5.9.2"
+kaleido = "0.2.1"
 
 
 [build-system]
