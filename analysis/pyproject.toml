@@ -6,13 +6,15 @@ authors = ["David Dann <mail@daviddann.de>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.11.*"
 pandas = "^2.1.3"
 numpy = "^1.26.2"
 plotly = "^5.18.0"
 ipykernel = "^6.26.0"
 nbformat = "^5.9.2"
 kaleido = "0.2.1"
+scipy = "^1.11.3"
+statsmodels = "^0.14.0"
 
 
 [build-system]
