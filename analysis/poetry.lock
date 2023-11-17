@@ -1069,6 +1069,17 @@ pure-eval = "*"
 tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
 [[package]]
+name = "stargazer"
+version = "0.0.6"
+description = "Nicely formatted regression reporting"
+optional = false
+python-versions = "*"
+files = [
+    {file = "stargazer-0.0.6-py3-none-any.whl", hash = "sha256:99c7800d96e3a04cf0fea18517ab096ca82083ee7edc907e5473deba1786e5e6"},
+    {file = "stargazer-0.0.6.tar.gz", hash = "sha256:f0863965ad3e619e7476b9df32737660122e8762b06a992f76733c8911608eb8"},
+]
+
+[[package]]
 name = "statsmodels"
 version = "0.14.0"
 description = "Statistical computations and models for Python"
@@ -1192,4 +1203,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.11.*"
-content-hash = "bca1433834580bbfdb0bec852524742d52be623d08cc597a3604897996a2a52b"
+content-hash = "de5169139edd2e6b5f3b2ff98cab55f12102764f21750a4834366dd3b4a55f26"
