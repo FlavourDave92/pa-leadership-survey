@@ -1,4 +1,6 @@
 # pa-leadership-survey (mit Verena)
+## aws
+- used an t2.large, worked good
 
 ## nginx config
 Note: no self-signed certs on aws possible (certbot) --> only use http and no https. If certs possible, insert them (crt or pem file possible) in the config.
